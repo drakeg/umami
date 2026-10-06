@@ -1,12 +1,13 @@
-# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+# Build the legacy Umami application on a currently supported Node.js release.
+# Keep both database variants covered until the application is upgraded to a newer Umami release.
 
 name: Node.js CI
 
-on: [push]
+on:
+  push:
+  pull_request:
 
 env:
-  DATABASE_TYPE: postgresql
   SKIP_DB_CHECK: 1
 
 jobs:
@@ -14,26 +15,28 @@ jobs:
     runs-on: ubuntu-latest
 
     strategy:
+      fail-fast: false
       matrix:
-        include:
-        - node-version: 14.x
-          db-type: postgresql
-        - node-version: 14.x
-          db-type: mysql
-        - node-version: 16.x
-          db-type: postgresql
-        - node-version: 16.x
-          db-type: mysql
+        db-type:
+          - postgresql
+          - mysql
+
+    env:
+      DATABASE_TYPE: ${{ matrix.db-type }}
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v2
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-      env:
-        DATABASE_TYPE: ${{ matrix.db-type }}
-    - run: npm install --global yarn
-    - run: yarn install --frozen-lockfile
-    - run: yarn build
+      - uses: actions/checkout@v4
+
+      - name: Use Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.x
+
+      - name: Install Yarn
+        run: npm install --global yarn@1.22.22
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Build
+        run: yarn build
