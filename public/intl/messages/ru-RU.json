@@ -1,778 +1,512 @@
 {
-  "label.accounts": [
-    {
-      "type": 0,
-      "value": "Аккаунты"
-    }
-  ],
-  "label.add-account": [
-    {
-      "type": 0,
-      "value": "Добавить аккаунт"
-    }
-  ],
-  "label.add-website": [
-    {
-      "type": 0,
-      "value": "Добавить сайт"
-    }
-  ],
-  "label.administrator": [
-    {
-      "type": 0,
-      "value": "Администратор"
-    }
-  ],
-  "label.all": [
-    {
-      "type": 0,
-      "value": "Все"
-    }
-  ],
-  "label.all-time": [
-    {
-      "type": 0,
-      "value": "Все время"
-    }
-  ],
-  "label.all-websites": [
-    {
-      "type": 0,
-      "value": "Все сайты"
-    }
-  ],
-  "label.back": [
-    {
-      "type": 0,
-      "value": "Назад"
-    }
-  ],
-  "label.cancel": [
-    {
-      "type": 0,
-      "value": "Отменить"
-    }
-  ],
-  "label.change-password": [
-    {
-      "type": 0,
-      "value": "Изменить пароль"
-    }
-  ],
-  "label.confirm-password": [
-    {
-      "type": 0,
-      "value": "Подтвердить пароль"
-    }
-  ],
-  "label.copy-to-clipboard": [
-    {
-      "type": 0,
-      "value": "Скопировать в буфер обмена"
-    }
-  ],
-  "label.current-password": [
-    {
-      "type": 0,
-      "value": "Текущий пароль"
-    }
-  ],
-  "label.custom-range": [
-    {
-      "type": 0,
-      "value": "Другой период"
-    }
-  ],
-  "label.dashboard": [
-    {
-      "type": 0,
-      "value": "Информационная панель"
-    }
-  ],
-  "label.date-range": [
-    {
-      "type": 0,
-      "value": "Диапазон дат"
-    }
-  ],
-  "label.default-date-range": [
-    {
-      "type": 0,
-      "value": "Диапазон дат по-умолчанию"
-    }
-  ],
-  "label.delete": [
-    {
-      "type": 0,
-      "value": "Удалить"
-    }
-  ],
-  "label.delete-account": [
-    {
-      "type": 0,
-      "value": "Удалить аккаунт"
-    }
-  ],
-  "label.delete-website": [
-    {
-      "type": 0,
-      "value": "Удалить сайт"
-    }
-  ],
-  "label.dismiss": [
-    {
-      "type": 0,
-      "value": "Отклонить"
-    }
-  ],
-  "label.domain": [
-    {
-      "type": 0,
-      "value": "Домен"
-    }
-  ],
-  "label.edit": [
-    {
-      "type": 0,
-      "value": "Редактировать"
-    }
-  ],
-  "label.edit-account": [
-    {
-      "type": 0,
-      "value": "Редактировать аккаунт"
-    }
-  ],
-  "label.edit-website": [
-    {
-      "type": 0,
-      "value": "Редактировать сайт"
-    }
-  ],
-  "label.enable-share-url": [
-    {
-      "type": 0,
-      "value": "Разрешить делиться ссылкой"
-    }
-  ],
-  "label.invalid": [
-    {
-      "type": 0,
-      "value": "Некорректный"
-    }
-  ],
-  "label.invalid-domain": [
-    {
-      "type": 0,
-      "value": "Некорректный домен"
-    }
-  ],
-  "label.language": [
-    {
-      "type": 0,
-      "value": "Язык"
-    }
-  ],
-  "label.last-days": [
-    {
-      "type": 0,
-      "value": "Последние "
-    },
-    {
-      "type": 1,
-      "value": "x"
-    },
-    {
-      "type": 0,
-      "value": " дней"
-    }
-  ],
-  "label.last-hours": [
-    {
-      "type": 0,
-      "value": "Последние "
-    },
-    {
-      "type": 1,
-      "value": "x"
-    },
-    {
-      "type": 0,
-      "value": " часа"
-    }
-  ],
-  "label.logged-in-as": [
-    {
-      "type": 0,
-      "value": "Вы вошли как "
-    },
-    {
-      "type": 1,
-      "value": "username"
-    }
-  ],
-  "label.login": [
-    {
-      "type": 0,
-      "value": "Войти"
-    }
-  ],
-  "label.logout": [
-    {
-      "type": 0,
-      "value": "Выйти"
-    }
-  ],
-  "label.more": [
-    {
-      "type": 0,
-      "value": "Больше"
-    }
-  ],
-  "label.name": [
-    {
-      "type": 0,
-      "value": "Имя"
-    }
-  ],
-  "label.new-password": [
-    {
-      "type": 0,
-      "value": "Новый пароль"
-    }
-  ],
-  "label.none": [
-    {
-      "type": 0,
-      "value": "None"
-    }
-  ],
-  "label.owner": [
-    {
-      "type": 0,
-      "value": "Владелец"
-    }
-  ],
-  "label.password": [
-    {
-      "type": 0,
-      "value": "Пароль"
-    }
-  ],
-  "label.passwords-dont-match": [
-    {
-      "type": 0,
-      "value": "Пароли не совпадают"
-    }
-  ],
-  "label.profile": [
-    {
-      "type": 0,
-      "value": "Профиль"
-    }
-  ],
-  "label.realtime": [
-    {
-      "type": 0,
-      "value": "Реальное время"
-    }
-  ],
-  "label.realtime-logs": [
-    {
-      "type": 0,
-      "value": "Логи в реальном времени"
-    }
-  ],
-  "label.refresh": [
-    {
-      "type": 0,
-      "value": "Обновить"
-    }
-  ],
-  "label.required": [
-    {
-      "type": 0,
-      "value": "Обязательное"
-    }
-  ],
-  "label.reset": [
-    {
-      "type": 0,
-      "value": "Сбросить"
-    }
-  ],
-  "label.reset-website": [
-    {
-      "type": 0,
-      "value": "Сбросить статистику"
-    }
-  ],
-  "label.save": [
-    {
-      "type": 0,
-      "value": "Сохранить"
-    }
-  ],
-  "label.settings": [
-    {
-      "type": 0,
-      "value": "Настройки"
-    }
-  ],
-  "label.share-url": [
-    {
-      "type": 0,
-      "value": "Поделиться ссылкой"
-    }
-  ],
-  "label.single-day": [
-    {
-      "type": 0,
-      "value": "Один день"
-    }
-  ],
-  "label.theme": [
-    {
-      "type": 0,
-      "value": "Тема"
-    }
-  ],
-  "label.this-month": [
-    {
-      "type": 0,
-      "value": "Этот месяц"
-    }
-  ],
-  "label.this-week": [
-    {
-      "type": 0,
-      "value": "Эта неделя"
-    }
-  ],
-  "label.this-year": [
-    {
-      "type": 0,
-      "value": "Этот год"
-    }
-  ],
-  "label.timezone": [
-    {
-      "type": 0,
-      "value": "Часовой пояс"
-    }
-  ],
-  "label.today": [
-    {
-      "type": 0,
-      "value": "Сегодня"
-    }
-  ],
-  "label.tracking-code": [
-    {
-      "type": 0,
-      "value": "Код отслеживания"
-    }
-  ],
-  "label.unknown": [
-    {
-      "type": 0,
-      "value": "Неизвестно"
-    }
-  ],
-  "label.username": [
-    {
-      "type": 0,
-      "value": "Имя пользователя"
-    }
-  ],
-  "label.view-details": [
-    {
-      "type": 0,
-      "value": "Посмотреть детали"
-    }
-  ],
-  "label.websites": [
-    {
-      "type": 0,
-      "value": "Сайты"
-    }
-  ],
-  "message.active-users": [
-    {
-      "type": 1,
-      "value": "x"
-    },
-    {
-      "type": 0,
-      "value": " текущих посетителей"
-    }
-  ],
-  "message.confirm-delete": [
-    {
-      "type": 0,
-      "value": "Вы уверены, что хотите удалить "
-    },
-    {
-      "type": 1,
-      "value": "target"
-    },
-    {
-      "type": 0,
-      "value": "?"
-    }
-  ],
-  "message.confirm-reset": [
-    {
-      "type": 0,
-      "value": "Вы уверены, что хотите сбросить статистику "
-    },
-    {
-      "type": 1,
-      "value": "target"
-    },
-    {
-      "type": 0,
-      "value": "?"
-    }
-  ],
-  "message.copied": [
-    {
-      "type": 0,
-      "value": "Скопировано!"
-    }
-  ],
-  "message.delete-warning": [
-    {
-      "type": 0,
-      "value": "Все связанные данные будут также удалены."
-    }
-  ],
-  "message.edit-dashboard": [
-    {
-      "type": 0,
-      "value": "Edit dashboard"
-    }
-  ],
-  "message.failure": [
-    {
-      "type": 0,
-      "value": "Что-то пошло не так."
-    }
-  ],
-  "message.get-share-url": [
-    {
-      "type": 0,
-      "value": "Получить публичную ссылку"
-    }
-  ],
-  "message.get-tracking-code": [
-    {
-      "type": 0,
-      "value": "Получить код отслеживания"
-    }
-  ],
-  "message.go-to-settings": [
-    {
-      "type": 0,
-      "value": "Перейти к настройкам"
-    }
-  ],
-  "message.incorrect-username-password": [
-    {
-      "type": 0,
-      "value": "Неверное имя пользователя/пароль."
-    }
-  ],
-  "message.log.visitor": [
-    {
-      "type": 0,
-      "value": "Посетитель из "
-    },
-    {
-      "type": 1,
-      "value": "country"
-    },
-    {
-      "type": 0,
-      "value": " используя "
-    },
-    {
-      "type": 1,
-      "value": "browser"
-    },
-    {
-      "type": 0,
-      "value": " на "
-    },
-    {
-      "type": 1,
-      "value": "os"
-    },
-    {
-      "type": 0,
-      "value": " "
-    },
-    {
-      "type": 1,
-      "value": "device"
-    }
-  ],
-  "message.new-version-available": [
-    {
-      "type": 0,
-      "value": "Доступна новая версия umami "
-    },
-    {
-      "type": 1,
-      "value": "version"
-    }
-  ],
-  "message.no-data-available": [
-    {
-      "type": 0,
-      "value": "Нет данных."
-    }
-  ],
-  "message.no-websites-configured": [
-    {
-      "type": 0,
-      "value": "У вас нет настроенных сайтов."
-    }
-  ],
-  "message.page-not-found": [
-    {
-      "type": 0,
-      "value": "Страница не найдена."
-    }
-  ],
-  "message.powered-by": [
-    {
-      "type": 0,
-      "value": "На движке "
-    },
-    {
-      "type": 1,
-      "value": "name"
-    }
-  ],
-  "message.reset-warning": [
-    {
-      "type": 0,
-      "value": "Вся статистика для этого сайта будет удалена, но ваш код отслеживания останется нетронутым."
-    }
-  ],
-  "message.save-success": [
-    {
-      "type": 0,
-      "value": "Успешно сохранено."
-    }
-  ],
-  "message.share-url": [
-    {
-      "type": 0,
-      "value": "Это публичная ссылка для "
-    },
-    {
-      "type": 1,
-      "value": "target"
-    },
-    {
-      "type": 0,
-      "value": "."
-    }
-  ],
-  "message.toggle-charts": [
-    {
-      "type": 0,
-      "value": "Показать/скрыть графики"
-    }
-  ],
-  "message.track-stats": [
-    {
-      "type": 0,
-      "value": "Чтобы отслеживать статистику для "
-    },
-    {
-      "type": 1,
-      "value": "target"
-    },
-    {
-      "type": 0,
-      "value": ", поместите следующий код в раздел "
-    },
-    {
-      "type": 1,
-      "value": "head"
-    },
-    {
-      "type": 0,
-      "value": " вашего сайта."
-    }
-  ],
-  "message.type-delete": [
-    {
-      "type": 0,
-      "value": "Напишите "
-    },
-    {
-      "type": 1,
-      "value": "delete"
-    },
-    {
-      "type": 0,
-      "value": " в поле ниже, чтобы подтвердить."
-    }
-  ],
-  "message.type-reset": [
-    {
-      "type": 0,
-      "value": "Введите "
-    },
-    {
-      "type": 1,
-      "value": "reset"
-    },
-    {
-      "type": 0,
-      "value": " в поле ниже, чтобы подтвердить."
-    }
-  ],
-  "metrics.actions": [
-    {
-      "type": 0,
-      "value": "Действия"
-    }
-  ],
-  "metrics.average-visit-time": [
-    {
-      "type": 0,
-      "value": "Среднее время посещения"
-    }
-  ],
-  "metrics.bounce-rate": [
-    {
-      "type": 0,
-      "value": "Отказы"
-    }
-  ],
-  "metrics.browsers": [
-    {
-      "type": 0,
-      "value": "Браузеры"
-    }
-  ],
-  "metrics.countries": [
-    {
-      "type": 0,
-      "value": "Страны"
-    }
-  ],
-  "metrics.device.desktop": [
-    {
-      "type": 0,
-      "value": "Настольный компьютер"
-    }
-  ],
-  "metrics.device.laptop": [
-    {
-      "type": 0,
-      "value": "Ноутбук"
-    }
-  ],
-  "metrics.device.mobile": [
-    {
-      "type": 0,
-      "value": "Смартфон"
-    }
-  ],
-  "metrics.device.tablet": [
-    {
-      "type": 0,
-      "value": "Планшет"
-    }
-  ],
-  "metrics.devices": [
-    {
-      "type": 0,
-      "value": "Устройства"
-    }
-  ],
-  "metrics.events": [
-    {
-      "type": 0,
-      "value": "События"
-    }
-  ],
-  "metrics.filter.combined": [
-    {
-      "type": 0,
-      "value": "Объединенные"
-    }
-  ],
-  "metrics.filter.raw": [
-    {
-      "type": 0,
-      "value": "Сырые данные"
-    }
-  ],
-  "metrics.languages": [
-    {
-      "type": 0,
-      "value": "Языки"
-    }
-  ],
-  "metrics.operating-systems": [
-    {
-      "type": 0,
-      "value": "Операционные системы"
-    }
-  ],
-  "metrics.page-views": [
-    {
-      "type": 0,
-      "value": "Просмотры страниц"
-    }
-  ],
-  "metrics.pages": [
-    {
-      "type": 0,
-      "value": "Страницы"
-    }
-  ],
-  "metrics.query-parameters": [
-    {
-      "type": 0,
-      "value": "Query parameters"
-    }
-  ],
-  "metrics.referrers": [
-    {
-      "type": 0,
-      "value": "Источники"
-    }
-  ],
-  "metrics.screens": [
-    {
-      "type": 0,
-      "value": "Screens"
-    }
-  ],
-  "metrics.unique-visitors": [
-    {
-      "type": 0,
-      "value": "Уникальные посетители"
-    }
-  ],
-  "metrics.views": [
-    {
-      "type": 0,
-      "value": "Просмотры"
-    }
-  ],
-  "metrics.visitors": [
-    {
-      "type": 0,
-      "value": "Посетители"
-    }
-  ]
+  "label": {
+    "access-code": "Код доступа",
+    "account": "Аккаунт",
+    "action": "Действие",
+    "actions": "Действия",
+    "activity": "Журнал активности",
+    "add": "Добавить",
+    "add-board": "Добавить доску",
+    "add-description": "Добавить описание",
+    "add-link": "Добавить ссылку",
+    "add-member": "Добавить участника",
+    "add-pixel": "Добавить пиксель",
+    "add-step": "Добавить шаг",
+    "add-website": "Добавить сайт",
+    "admin": "Администратор",
+    "affiliate": "Партнер",
+    "after": "После",
+    "all": "Все",
+    "all-time": "Все время",
+    "analysis": "Анализ",
+    "analytics": "Аналитика",
+    "application": "Приложение",
+    "apply": "Применить",
+    "attribution": "Атрибуция",
+    "attribution-description": "Посмотрите, как пользователи взаимодействуют с вашим маркетингом и что приводит к конверсиям.",
+    "audience": "Аудитория",
+    "average": "Средний",
+    "back": "Назад",
+    "before": "До",
+    "behavior": "Поведение",
+    "block-selector": "Выбор блока",
+    "boards": "Доски",
+    "board-type": "Тип доски",
+    "bounce-rate": "Отказы",
+    "breakdown": "Авария",
+    "browser": "Браузер",
+    "browsers": "Браузеры",
+    "campaign": "Кампания",
+    "campaigns": "Кампании",
+    "cancel": "Отменить",
+    "close": "Закрыть",
+    "change-password": "Изменить пароль",
+    "channel": "Канал",
+    "channels": "Каналы",
+    "chart": "Диаграмма",
+    "cities": "Города",
+    "city": "Город",
+    "clear-all": "Очистить все",
+    "cls": "CLS",
+    "cohort": "Когорта",
+    "cohorts": "Когорты",
+    "compare": "Сравнить",
+    "compare-dates": "Сравнить даты",
+    "confirm": "Подтвердить",
+    "confirm-password": "Подтвердить пароль",
+    "contains": "Содержит",
+    "regex-match": "Соответствует регулярному выражению",
+    "regex-not-match": "Не соответствует регулярному выражению",
+    "content": "Контент",
+    "continue": "Продолжить",
+    "conversion": "Конверсия",
+    "conversion-rate": "Коэффициент конверсии",
+    "conversion-step": "Шаг конверсии",
+    "count": "Считать",
+    "countries": "Страны",
+    "country": "Страна",
+    "create": "Создать",
+    "create-report": "Создать отчет",
+    "create-team": "Создать команду",
+    "create-user": "Создать пользователя",
+    "created": "Создано",
+    "created-by": "Создано",
+    "criteria": "Критерии",
+    "cumulative": "Накопительно",
+    "currency": "Валюта",
+    "current": "Текущий",
+    "current-password": "Текущий пароль",
+    "custom-range": "Другой период",
+    "dashboard": "Информационная панель",
+    "data": "Данные",
+    "date": "Дата",
+    "date-range": "Диапазон дат",
+    "day": "День",
+    "default-date-range": "Диапазон дат по-умолчанию",
+    "delete": "Удалить",
+    "delete-report": "Удалить отчет",
+    "delete-team": "Удалить команду",
+    "delete-user": "Удалить пользователя",
+    "delete-website": "Удалить сайт",
+    "description": "Описание",
+    "desktop": "Настольный компьютер",
+    "destination-url": "URL назначения",
+    "details": "Подробности",
+    "device": "Устройство",
+    "devices": "Устройства",
+    "direct": "Прямой",
+    "dismiss": "Отклонить",
+    "distinct-id": "Уникальный ID",
+    "documentation": "Документация",
+    "does-not-contain": "Не содержит",
+    "does-not-include": "Не включает",
+    "doest-not-exist": "Не существует",
+    "domain": "Домен",
+    "download": "Скачать",
+    "dropoff": "Высадка",
+    "duration": "Длительность",
+    "min-duration-seconds": "Минимальная продолжительность (секунды)",
+    "edit": "Изменить",
+    "design": "Дизайн",
+    "edit-member": "Редактировать участника",
+    "email": "Электронная почта",
+    "enable-share-url": "Разрешить делиться ссылкой",
+    "end-step": "Конечный шаг",
+    "entry": "URL-адрес входа",
+    "environment": "Окружение",
+    "event": "Событие",
+    "event-data": "Данные о событии",
+    "event-properties": "Данные о событии",
+    "event-name": "Название события",
+    "events": "События",
+    "exclude-bounce": "Исключить отказы",
+    "exists": "Существует",
+    "exit": "URL-адрес выхода",
+    "false": "Ложь",
+    "fcp": "FCP",
+    "field": "Поле",
+    "fields": "Поля",
+    "filter": "Фильтр",
+    "filter-combined": "Объединенные",
+    "filter-raw": "Сырые данные",
+    "filters": "Фильтры",
+    "filters-enabled": "Фильтры включены",
+    "property-filter": "Фильтр по свойству",
+    "activity-by-property": "Активность по свойству",
+    "first-click": "Первый клик",
+    "first-seen": "Первый вход",
+    "funnel": "Воронка",
+    "funnel-description": "Изучите коэффициент конверсии и ухода пользователей.",
+    "funnels": "Воронки",
+    "goal": "Цель",
+    "goals": "Цели",
+    "good": "Хорошо",
+    "goals-description": "Отслеживайте свои цели по просмотрам страниц и событиям.",
+    "greater-than": "Больше, чем",
+    "greater-than-equals": "Больше или равно",
+    "grouped": "Группировано",
+    "growth": "Рост",
+    "heatmap": "Тепловая карта",
+    "heatmap-description": "Визуализируйте, где посетители кликают и как далеко прокручивают ваши страницы.",
+    "heatmaps": "Тепловые карты",
+    "hostname": "Имя хоста",
+    "hour": "Час",
+    "includes": "Включает",
+    "insight": "Инсайт",
+    "insights": "Информация",
+    "insights-description": "Погрузитесь глубже в свои данные с помощью сегментов и фильтров.",
+    "inp": "INP",
+    "invalid-url": "Недействительный URL",
+    "is": "Является",
+    "is-false": "Ложно",
+    "is-not": "Не установлен",
+    "is-not-set": "Не установлено",
+    "is-set": "Установлен",
+    "is-true": "Истинно",
+    "join": "Присоединиться",
+    "join-team": "Присоединиться к команде",
+    "journey": "Путь",
+    "journey-description": "Поймите, как пользователи перемещаются по вашему сайту.",
+    "journeys": "Пути",
+    "language": "Язык",
+    "languages": "Языки",
+    "laptop": "Ноутбук",
+    "last-click": "Последний клик",
+    "last-days": "Последние {x} дней",
+    "last-hours": "Последние {x} часа",
+    "last-months": "Последние {x} месяцев",
+    "last-seen": "Последний вход",
+    "lcp": "LCP",
+    "leave": "Уйти",
+    "leave-team": "Покинуть команду",
+    "less-than": "Меньше, чем",
+    "less-than-equals": "Меньше или равно",
+    "link": "Ссылка",
+    "links": "Ссылки",
+    "location": "Местоположение",
+    "login": "Войти",
+    "llm": "LLM",
+    "logout": "Выйти",
+    "manage": "Управление",
+    "manager": "Менеджер",
+    "mask-level": "Уровень маскировки",
+    "max": "Максимум",
+    "max-duration": "Максимальная длительность",
+    "match": "Соответствие",
+    "match-all": "Все",
+    "match-any": "Любой",
+    "maximize": "Развернуть",
+    "medium": "Средний",
+    "member": "Участник",
+    "members": "Участники",
+    "min": "Минимум",
+    "minute": "Минута",
+    "mobile": "Смартфон",
+    "model": "Модель",
+    "month": "Месяц",
+    "more": "Больше",
+    "my-account": "Мой профиль",
+    "my-websites": "Мои сайты",
+    "name": "Имя",
+    "needs-improvement": "Требует улучшения",
+    "new-password": "Новый пароль",
+    "none": "Не указано",
+    "number-of-records": "{x} {x, plural, one {запись} other {записи}}",
+    "ok": "ОК",
+    "online": "Онлайн",
+    "open": "Смешанный",
+    "organic-search": "Органический поиск",
+    "organic-shopping": "Органические покупки",
+    "organic-social": "Органические соцсети",
+    "organic-video": "Органическое видео",
+    "os": "ОС",
+    "other": "Другое",
+    "overview": "Обзор",
+    "owner": "Владелец",
+    "page": "Страница",
+    "page-of": "Страница {current} из {total}",
+    "page-views": "Просмотры страниц",
+    "pageTitle": "Название страницы",
+    "period": "Период",
+    "pages": "Страницы",
+    "paid-ads": "Платная реклама",
+    "paid-search": "Платный поиск",
+    "paid-shopping": "Платные покупки",
+    "paid-social": "Платные соцсети",
+    "paid-video": "Платное видео",
+    "password": "Пароль",
+    "path": "Путь",
+    "paths": "Пути",
+    "performance": "Производительность",
+    "pixel": "Пиксель",
+    "pixels": "Пиксели",
+    "poor": "Плохо",
+    "powered-by": "На движке {name}",
+    "preferences": "Настройки",
+    "previous": "Предыдущий",
+    "previous-period": "Предыдущий период",
+    "previous-year": "Предыдущий год",
+    "profile": "Профиль",
+    "profiles": "Профили",
+    "properties": "Свойства",
+    "property": "Свойство",
+    "queries": "Запросы",
+    "query": "Запрос",
+    "query-parameters": "Параметры запроса",
+    "realtime": "Реальное время",
+    "recorded": "Записано",
+    "referral": "Реферал",
+    "referrer": "Реферер",
+    "referrers": "Источники",
+    "refresh": "Обновить",
+    "regenerate": "Обновить",
+    "region": "Регион",
+    "regions": "Регионы",
+    "remaining": "Осталось",
+    "remove": "Удалить",
+    "remove-member": "Удалить участника",
+    "play": "Воспроизвести",
+    "replay": "Запись сессии",
+    "replay-id": "Replay ID",
+    "recorder-code": "Код записи",
+    "replay-enabled": "Запись сессий включена",
+    "replays": "Записи сессий",
+    "reports": "Отчеты",
+    "required": "Обязательное",
+    "reset": "Сбросить",
+    "reset-website": "Сбросить статистику",
+    "retention": "Удержание",
+    "retention-days": "Дни хранения",
+    "retention-description": "Измерьте «прилипаемость» вашего сайта, отслеживая, как часто пользователи возвращаются на него.",
+    "revenue": "Выручка",
+    "revenue-description": "Изучите свои доходы за определенное время.",
+    "role": "Роль",
+    "run-query": "Выполнить запрос",
+    "save": "Сохранить",
+    "save-cohort": "Сохранить когорту",
+    "save-replay": "Сохранить запись",
+    "save-segment": "Сохранить сегмент",
+    "sample-rate": "Частота выборки",
+    "sample-size": "Размер выборки",
+    "screen": "Экран",
+    "screens": "Экраны",
+    "search": "Поиск",
+    "segment": "Сегмент",
+    "segments": "Сегменты",
+    "select": "Выберите",
+    "select-link": "Выберите ссылку",
+    "select-pixel": "Выберите пиксель",
+    "select-date": "Выберите дату",
+    "select-filter": "Выберите фильтр",
+    "select-role": "Выберите роль",
+    "select-component": "Выберите компонент",
+    "select-event": "Выберите событие",
+    "select-website": "Выбрать сайт",
+    "session": "Сессия",
+    "session-data": "Данные сессии",
+    "sessions": "Сессии",
+    "settings": "Настройки",
+    "share": "Поделиться",
+    "share-url": "Поделиться ссылкой",
+    "single-day": "Один день",
+    "slug": "Slug",
+    "sms": "СМС",
+    "source": "Источник",
+    "sources": "Источники",
+    "start-step": "Начальный этап",
+    "steps": "Шаги",
+    "sum": "Сумма",
+    "support": "Поддержка",
+    "switch-account": "Сменить аккаунт",
+    "switch-to-card-view": "Переключиться в режим карточек",
+    "switch-to-table-view": "Переключиться в режим таблицы",
+    "table": "Таблица",
+    "tablet": "Планшет",
+    "tag": "Тег",
+    "tags": "Теги",
+    "team": "Команда",
+    "team-id": "ID команды",
+    "team-manager": "Менеджер команды",
+    "team-member": "Член команды",
+    "team-name": "Название команды",
+    "team-owner": "Владелец команды",
+    "team-settings": "Настройки команды",
+    "team-view-only": "Только командный просмотр",
+    "team-websites": "Веб-сайты команды",
+    "teams": "Команды",
+    "term": "Поисковый запрос",
+    "terms": "Условия",
+    "theme": "Тема",
+    "this-month": "Этот месяц",
+    "this-week": "Эта неделя",
+    "this-year": "Этот год",
+    "timezone": "Часовой пояс",
+    "title": "Заголовок",
+    "today": "Сегодня",
+    "toggle-charts": "Показать/скрыть графики",
+    "total": "Всего",
+    "total-records": "Всего записей",
+    "tracking-code": "Код отслеживания",
+    "traffic": "Трафик",
+    "transactions": "Транзакции",
+    "transfer": "Передача",
+    "transfer-website": "Передать сайт",
+    "true": "Правда",
+    "ttfb": "TTFB",
+    "type": "Тип",
+    "unique": "Уникальный",
+    "unique-events": "Уникальные события",
+    "unique-visitors": "Уникальные посетители",
+    "aov": "AOV",
+    "arpu": "ARPU",
+    "uniqueCustomers": "Уникальные клиенты",
+    "customers": "Клиенты",
+    "orders": "Заказы",
+    "saved": "Сохранено",
+    "unknown": "Неизвестно",
+    "untitled": "Без названия",
+    "upgrade": "Улучшить план",
+    "update": "Обновление",
+    "url": "URL",
+    "user": "Пользователь",
+    "username": "Имя пользователя",
+    "users": "Пользователи",
+    "utm": "UTM",
+    "utm-campaign": "UTM-кампания",
+    "utm-content": "UTM-контент",
+    "utm-description": "Отслеживайте свои кампании с помощью UTM-параметров.",
+    "utm-medium": "UTM-канал",
+    "utm-source": "UTM-источник",
+    "utm-term": "UTM-запрос",
+    "value": "Значение",
+    "version": "Версия",
+    "view": "Просмотреть",
+    "view-details": "Посмотреть детали",
+    "view-only": "Только просмотр",
+    "views": "Просмотры",
+    "views-per-visit": "Просмотров за посещение",
+    "visit-duration": "Среднее время посещения",
+    "visitors": "Посетители",
+    "visits": "Посещения",
+    "website": "Сайт",
+    "website-id": "ID сайта",
+    "websites": "Сайты",
+    "window": "Окно",
+    "yesterday": "Вчера",
+    "security": "Безопасность",
+    "two-factor-auth": "Двухфакторная аутентификация",
+    "two-factor-setup-title": "Настройте двухфакторную аутентификацию",
+    "two-factor-step1": "Шаг 1",
+    "two-factor-step2": "Шаг 2",
+    "two-factor-scan-qr": "Сканируйте код QR",
+    "two-factor-cant-scan": "Не можете отсканировать код QR?",
+    "two-factor-manual-entry": "Вместо этого введите этот секрет:",
+    "two-factor-copy-code": "Скопировать код",
+    "two-factor-code-copied": "Скопировано!",
+    "two-factor-get-code": "Получить код подтверждения",
+    "two-factor-enter-code": "Введите код подтверждения",
+    "two-factor-use-backup": "Вместо этого используйте резервный код",
+    "two-factor-save-backup-codes": "Сохраните резервные коды",
+    "two-factor-download-codes": "Скачать коды",
+    "two-factor-saved-codes": "Я сохранил резервные коды",
+    "two-factor-backup-file-title": "Umami - Резервные коды двухфакторной аутентификации",
+    "two-factor-success-title": "Двухфакторная аутентификация включена",
+    "two-factor-enable": "Включить 2FA",
+    "two-factor-disable": "Отключить 2FA",
+    "two-factor-disable-title": "Отключить двухфакторную аутентификацию",
+    "two-factor-status-not-configured": "Не настроено",
+    "two-factor-active": "Активный",
+    "two-factor-require-global": "Требовать 2FA для всех пользователей",
+    "two-factor-require-user": "Требовать 2FA для этого пользователя",
+    "two-factor-require-team": "Требовать 2FA для всех членов этой команды",
+    "two-factor-reset": "Сбросить 2FA",
+    "two-factor-global-active-tooltip": "Глобальный 2FA включен.",
+    "two-factor-verify": "Проверить",
+    "two-factor-login": "Двухфакторная аутентификация"
+  },
+  "message": {
+    "action-confirmation": "Введите {confirmation} в поле ниже, чтобы подтвердить.",
+    "active-users": "{x} текущих посетителей",
+    "bad-request": "Неверный запрос",
+    "collected-data": "Собранные данные",
+    "confirm-delete": "Вы уверены, что хотите удалить {target}?",
+    "confirm-leave": "Вы уверены, что хотите уйти <b>{target}</b>?",
+    "confirm-remove": "Вы уверены, что хотите удалить <b>{target}</b>?",
+    "confirm-reset": "Вы уверены, что хотите сбросить статистику {target}?",
+    "delete-team-warning": "При удалении команды будут удалены и все ее веб-сайты.",
+    "delete-website-warning": "Все связанные данные будут также удалены.",
+    "error": "Что-то пошло не так.",
+    "empty-dashboard": "Ваша панель управления пуста. Нажмите Дизайн, чтобы добавить первый компонент.",
+    "event-log": "<b>{event}</b> на <a>{url}</a>",
+    "forbidden": "Доступ запрещён",
+    "go-to-settings": "Перейти к настройкам",
+    "incorrect-username-password": "Неверное имя пользователя/пароль.",
+    "invalid-domain": "Некорректный домен",
+    "invalid-value": "Некорректное значение",
+    "min-password-length": "Минимальная длина {n} символов",
+    "new-version-available": "Вышла новая версия Umami {version}!",
+    "no-data-available": "Нет данных.",
+    "no-event-data": "Данные о событиях отсутствуют.",
+    "no-match-password": "Пароли не совпадают",
+    "no-results-found": "Результаты не найдены.",
+    "no-team-websites": "У этой команды нет ни одного сайта.",
+    "no-teams": "Вы не создали ни одной команды.",
+    "no-users": "Нет пользователей.",
+    "no-websites-configured": "У вас нет настроенных сайтов.",
+    "not-found": "Не найдено",
+    "nothing-selected": "Ничего не выбрано.",
+    "page-not-found": "Страница не найдена.",
+    "reset-website": "Для сброса введите RESET",
+    "reset-website-warning": "Вся статистика для этого сайта будет удалена, но ваш код отслеживания останется нетронутым.",
+    "saved": "Успешно сохранено.",
+    "select-board-entity-first": "Сначала выберите сайт, пиксель или ссылку.",
+    "select-component-preview": "Выберите компонент для предпросмотра",
+    "select-website-first": "Сначала выберите сайт",
+    "sever-error": "Ошибка сервера",
+    "share-url": "Это публичная ссылка для {target}.",
+    "team-already-member": "Вы уже состоите в команде.",
+    "team-not-found": "Команда не найдена.",
+    "team-websites-info": "Сайты могут просматривать все члены команды.",
+    "tracking-code": "Код отслеживания",
+    "transfer-team-website-to-user": "Перенести этот сайт в свой прфоиль?",
+    "transfer-user-website-to-team": "Выберите команду, которой нужно передать этот сайт.",
+    "transfer-website": "Передайте право владения сайтом своей учетной записи или другой команде.",
+    "triggered-event": "Запущенное событие",
+    "unauthorized": "Не авторизован",
+    "user-deleted": "Пользователь удален.",
+    "replay-min-duration-description": "Показывать только воспроизведения с такой или большей продолжительностью.",
+    "viewed-page": "Просмотренная страница",
+    "upgrade-required": "Для этой функции требуется подписка на план {plan}.",
+    "visitor-log": "Посетитель из <b>{country}</b> используя <b>{browser}</b> на <b>{os}</b> <b>{device}</b>",
+    "two-factor-setup-description": "Каждый раз, когда вы входите в систему, помимо пароля вы будете использовать приложение для аутентификации для создания и использования одноразового кода.",
+    "two-factor-setup-required-description": "Для доступа к Umami требуется двухфакторная аутентификация (2FA).",
+    "two-factor-step1-description": "Отсканируйте код QR ниже или вручную введите секретный ключ в приложение для аутентификации.",
+    "two-factor-step2-description": "Введите 6-значный код, который вы видите в приложении для аутентификации.",
+    "two-factor-enabled-description": "Ваша учетная запись теперь защищена двухфакторной аутентификацией. С этого момента вам нужно будет вводить код из приложения для аутентификации каждый раз при входе в систему.",
+    "two-factor-backup-description": "Если вы потеряете доступ к приложению для аутентификации, вы можете использовать один из этих одноразовых резервных кодов для входа. Сохраните их в безопасном месте; они больше не будут показаны.",
+    "two-factor-backup-codes-once": "Сохраните эти коды. Каждый код можно использовать только один раз.",
+    "two-factor-login-description": "Введите 6-значный код из приложения для аутентификации.",
+    "two-factor-disable-description": "Для подтверждения введите свой пароль и код подтверждения из приложения для аутентификации.",
+    "two-factor-required-message": "Для вашей учетной записи требуется двухфакторная аутентификация, которую нельзя отключить. Обратитесь за помощью к администратору.",
+    "two-factor-override-note": "Настройки для отдельных пользователей и групп 2FA переопределяются, пока глобальный 2FA включен.",
+    "two-factor-admin-global-description": "Требовать от всех пользователей настроить двухфакторную аутентификацию при следующем входе в систему. Пользователям, которые еще не настроили 2FA, будет предложено сделать это, прежде чем они смогут получить доступ к Umami.",
+    "two-factor-require-user-description": "Если эта опция включена, этому пользователю будет предложено настроить 2FA при следующем входе в систему, если он еще этого не сделал.",
+    "two-factor-require-team-description": "Если эта функция включена, всем членам этой команды будет предложено настроить 2FA при следующем входе в систему, если они еще этого не сделали.",
+    "two-factor-user-description": "Добавьте дополнительный уровень безопасности в свою учетную запись. Каждый раз при входе в систему вам понадобится пароль и код из приложения для аутентификации.",
+    "two-factor-reset-description": "Удалите текущую двухфакторную конфигурацию этого пользователя. Если 2FA по-прежнему требуется политикой, им будет предложено отсканировать новый код QR при следующем входе в систему.",
+    "two-factor-error-invalid-code": "Неверный код подтверждения. Пожалуйста, попробуйте еще раз.",
+    "two-factor-error-missing-token": "Токен аутентификации отсутствует.",
+    "two-factor-error-invalid-partial-token": "Неверный или просроченный токен аутентификации.",
+    "two-factor-error-invalid-backup-code": "Неверный резервный код.",
+    "two-factor-error-code-used": "Этот код уже использовался. Подождите следующего кода.",
+    "two-factor-error-too-many-attempts": "Слишком много неудачных попыток. Ваш аккаунт временно заблокирован.",
+    "two-factor-error-disable-not-allowed": "Двухфакторная аутентификация обязательна и не может быть отключена.",
+    "two-factor-error-incorrect-password": "Неправильный пароль.",
+    "two-factor-error-already-enabled": "Двухфакторная аутентификация уже включена.",
+    "two-factor-error-not-enabled": "Двухфакторная аутентификация не включена.",
+    "two-factor-error-no-pending-setup": "Не найдено ожидающих настроек двухфакторной аутентификации.",
+    "two-factor-locked-message": "Слишком много неудачных попыток. Попробуйте еще раз на {time}.",
+    "two-factor-active-description": "Ваша учетная запись защищена двухфакторной аутентификацией. Для каждого входа требуется код из вашего приложения для аутентификации.",
+    "two-factor-error-not-configured": "Двухфакторная аутентификация недоступна, потому что на сервере отсутствует действительный TWO_FACTOR_ENCRYPTION_KEY. Обратитесь к администратору за помощью."
+  }
 }

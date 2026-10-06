@@ -1,21 +1,22 @@
 import 'dotenv/config';
-import buble from '@rollup/plugin-buble';
 import replace from '@rollup/plugin-replace';
-import { terser } from 'rollup-plugin-terser';
+import terser from '@rollup/plugin-terser';
+import typescript from '@rollup/plugin-typescript';
 
 export default {
-  input: 'tracker/index.js',
+  input: 'src/tracker/index.ts',
   output: {
-    file: 'public/umami.js',
+    file: 'public/script.js',
     format: 'iife',
   },
   plugins: [
+    typescript({ tsconfig: './tsconfig.tracker.json' }),
     replace({
-      '/api/collect': process.env.COLLECT_API_ENDPOINT || '/api/collect',
+      __COLLECT_API_HOST__: process.env.COLLECT_API_HOST || '',
+      __COLLECT_API_ENDPOINT__: process.env.COLLECT_API_ENDPOINT || '/api/send',
       delimiters: ['', ''],
       preventAssignment: true,
     }),
-    buble({ objectAssign: true }),
     terser({ compress: { evaluate: false } }),
   ],
 };

@@ -1,4 +1,7 @@
-require('dotenv').config();
-const cli = require('next/dist/cli/next-start');
+import 'dotenv/config';
+import cli from 'next/dist/cli/next-start.js';
 
-cli.nextStart(['-p', process.env.PORT || 3000, '-H', process.env.HOSTNAME || '0.0.0.0']);
+cli.nextStart({
+  port: process.env.PORT || 3000,
+  hostname: process.env.HOSTNAME || '0.0.0.0',
+});

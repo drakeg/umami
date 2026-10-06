@@ -1,42 +1,31 @@
-# Build the legacy Umami application on a currently supported Node.js release.
-# Keep both database variants covered until the application is upgraded to a newer Umami release.
-
 name: Node.js CI
 
-on:
-  push:
-  pull_request:
+on: [push, pull_request]
 
 env:
+  DATABASE_URL: "postgresql://user:pass@localhost:5432/dummy"
   SKIP_DB_CHECK: 1
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
-    strategy:
-      fail-fast: false
-      matrix:
-        db-type:
-          - postgresql
-          - mysql
-
-    env:
-      DATABASE_TYPE: ${{ matrix.db-type }}
-
     steps:
       - uses: actions/checkout@v4
-
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 12.3.4
+          run_install: false
       - name: Use Node.js 22
         uses: actions/setup-node@v4
         with:
-          node-version: 22.x
-
-      - name: Install Yarn
-        run: npm install --global yarn@1.22.22
-
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
-
-      - name: Build
-        run: yarn build
+          node-version: 22
+          cache: "pnpm"
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm openapi:generate
+      - run: pnpm openapi:check --explicit
+      - run: pnpm check:api:client
+      - run: pnpm build:packages
+      - run: pnpm test
+      - run: pnpm test:packages
+      - run: pnpm build
