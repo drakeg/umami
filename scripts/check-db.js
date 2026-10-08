@@ -1,16 +1,26 @@
 /* eslint-disable no-console */
-require('dotenv').config();
-const { PrismaClient } = require('@prisma/client');
-const chalk = require('chalk');
-const spawn = require('cross-spawn');
-const { execSync } = require('child_process');
+import 'dotenv/config';
+import { execSync } from 'node:child_process';
+import { PrismaPg } from '@prisma/adapter-pg';
+import chalk from 'chalk';
+import { PrismaClient } from '../generated/prisma/client.js';
+
+const MIN_VERSION = '9.4.0';
+const MIN_VERSION_NUM = 90400;
 
 if (process.env.SKIP_DB_CHECK) {
   console.log('Skipping database check.');
   process.exit(0);
 }
 
-const prisma = new PrismaClient();
+const url = new URL(process.env.DATABASE_URL);
+
+const adapter = new PrismaPg(
+  { connectionString: url.toString() },
+  { schema: url.searchParams.get('schema') },
+);
+
+const prisma = new PrismaClient({ adapter });
 
 function success(msg) {
   console.log(chalk.greenBright(`✓ ${msg}`));
@@ -26,6 +36,10 @@ async function checkEnv() {
   } else {
     success('DATABASE_URL is defined.');
   }
+
+  if (process.env.REDIS_URL) {
+    success('REDIS_URL is defined.');
+  }
 }
 
 async function checkConnection() {
@@ -34,71 +48,49 @@ async function checkConnection() {
 
     success('Database connection successful.');
   } catch (e) {
-    throw new Error('Unable to connect to the database.');
+    throw new Error(`Unable to connect to the database: ${e.message}`);
   }
 }
 
-async function checkTables() {
-  try {
-    await prisma.$queryRaw`select * from account limit 1`;
+async function checkDatabaseVersion() {
+  const query = await prisma.$queryRaw`select current_setting('server_version_num') as version_num`;
+  const version = Number(query[0]?.version_num);
 
-    success('Database tables found.');
-  } catch (e) {
-    error('Database tables not found.');
-    console.log('Adding tables...');
-
-    console.log(execSync('prisma migrate deploy').toString());
-  }
-}
-
-async function run(cmd, args) {
-  const buffer = [];
-  const proc = spawn(cmd, args);
-
-  return new Promise((resolve, reject) => {
-    proc.stdout.on('data', data => buffer.push(data));
-
-    proc.on('error', () => {
-      reject(new Error('Failed to run Prisma.'));
-    });
-
-    proc.on('exit', () => resolve(buffer.join('')));
-  });
-}
-
-async function checkMigrations() {
-  const output = await run('prisma', ['migrate', 'status']);
-
-  console.log(output);
-
-  const missingMigrations = output.includes('have not yet been applied');
-  const missingInitialMigration =
-    output.includes('01_init') && !output.includes('The last common migration is: 01_init');
-  const notManaged = output.includes('The current database is not managed');
-
-  if (notManaged || missingMigrations) {
-    console.log('Running update...');
-
-    if (missingInitialMigration) {
-      console.log(execSync('prisma migrate resolve --applied "01_init"').toString());
-    }
-
-    console.log(execSync('prisma migrate deploy').toString());
+  if (!Number.isFinite(version)) {
+    throw new Error('Unable to determine database version.');
   }
 
-  success('Database is up to date.');
+  if (version < MIN_VERSION_NUM) {
+    throw new Error(
+      `Database version is not compatible. Please upgrade to ${MIN_VERSION} or greater.`,
+    );
+  }
+
+  success('Database version check successful.');
+}
+
+async function applyMigration() {
+  if (!process.env.SKIP_DB_MIGRATION) {
+    const directUrl = process.env.DIRECT_DATABASE_URL || process.env.DATABASE_URL;
+    console.log(
+      execSync('prisma migrate deploy', {
+        env: { ...process.env, DATABASE_URL: directUrl },
+      }).toString(),
+    );
+
+    success('Database is up to date.');
+  }
 }
 
 (async () => {
   let err = false;
-  for (let fn of [checkEnv, checkConnection, checkTables, checkMigrations]) {
+  for (const fn of [checkEnv, checkConnection, checkDatabaseVersion, applyMigration]) {
     try {
       await fn();
     } catch (e) {
-      console.log(chalk.red(`✗ ${e.message}`));
+      error(e.message);
       err = true;
     } finally {
-      await prisma.$disconnect();
       if (err) {
         process.exit(1);
       }

@@ -1,806 +1,512 @@
 {
-  "label.accounts": [
-    {
-      "type": 0,
-      "value": "Λογαριασμοί"
-    }
-  ],
-  "label.add-account": [
-    {
-      "type": 0,
-      "value": "Προσθήκη λογαριασμού"
-    }
-  ],
-  "label.add-website": [
-    {
-      "type": 0,
-      "value": "Προσθήκη ιστότοπου"
-    }
-  ],
-  "label.administrator": [
-    {
-      "type": 0,
-      "value": "Διαχειριστής"
-    }
-  ],
-  "label.all": [
-    {
-      "type": 0,
-      "value": "All"
-    }
-  ],
-  "label.all-time": [
-    {
-      "type": 0,
-      "value": "All time"
-    }
-  ],
-  "label.all-websites": [
-    {
-      "type": 0,
-      "value": "All websites"
-    }
-  ],
-  "label.back": [
-    {
-      "type": 0,
-      "value": "Πίσω"
-    }
-  ],
-  "label.cancel": [
-    {
-      "type": 0,
-      "value": "Ακύρωση"
-    }
-  ],
-  "label.change-password": [
-    {
-      "type": 0,
-      "value": "Αλλαγή κωδικού"
-    }
-  ],
-  "label.confirm-password": [
-    {
-      "type": 0,
-      "value": "Επιβεβαίωση κωδικού"
-    }
-  ],
-  "label.copy-to-clipboard": [
-    {
-      "type": 0,
-      "value": "Αντιγραφή στο πρόχειρο"
-    }
-  ],
-  "label.current-password": [
-    {
-      "type": 0,
-      "value": "Τωρινός κωδικός πρόσβασης"
-    }
-  ],
-  "label.custom-range": [
-    {
-      "type": 0,
-      "value": "Προσαρμοσμένο εύρος"
-    }
-  ],
-  "label.dashboard": [
-    {
-      "type": 0,
-      "value": "Πίνακας"
-    }
-  ],
-  "label.date-range": [
-    {
-      "type": 0,
-      "value": "Εύρος ημερομηνιών"
-    }
-  ],
-  "label.default-date-range": [
-    {
-      "type": 0,
-      "value": "Προεπιλεγμένο εύρος ημερομηνιών"
-    }
-  ],
-  "label.delete": [
-    {
-      "type": 0,
-      "value": "Διαγραφή"
-    }
-  ],
-  "label.delete-account": [
-    {
-      "type": 0,
-      "value": "Διαγραφή λογαριασμού"
-    }
-  ],
-  "label.delete-website": [
-    {
-      "type": 0,
-      "value": "Διαγραφή ιστότοπου"
-    }
-  ],
-  "label.dismiss": [
-    {
-      "type": 0,
-      "value": "Dismiss"
-    }
-  ],
-  "label.domain": [
-    {
-      "type": 0,
-      "value": "Τομέας"
-    }
-  ],
-  "label.edit": [
-    {
-      "type": 0,
-      "value": "Επεξεργασία"
-    }
-  ],
-  "label.edit-account": [
-    {
-      "type": 0,
-      "value": "Επεξεργασία λογαριασμού"
-    }
-  ],
-  "label.edit-website": [
-    {
-      "type": 0,
-      "value": "Επεξεργασία ιστότοπου"
-    }
-  ],
-  "label.enable-share-url": [
-    {
-      "type": 0,
-      "value": "Ενεργοποίηση κοινής χρήσης URL"
-    }
-  ],
-  "label.invalid": [
-    {
-      "type": 0,
-      "value": "Μη έγκυρο"
-    }
-  ],
-  "label.invalid-domain": [
-    {
-      "type": 0,
-      "value": "Μη έγκυρος τομέας"
-    }
-  ],
-  "label.language": [
-    {
-      "type": 0,
-      "value": "Language"
-    }
-  ],
-  "label.last-days": [
-    {
-      "type": 0,
-      "value": "Τελευταίες "
-    },
-    {
-      "type": 1,
-      "value": "x"
-    },
-    {
-      "type": 0,
-      "value": " ημέρες"
-    }
-  ],
-  "label.last-hours": [
-    {
-      "type": 0,
-      "value": "Τελευταίες "
-    },
-    {
-      "type": 1,
-      "value": "x"
-    },
-    {
-      "type": 0,
-      "value": " ώρες"
-    }
-  ],
-  "label.logged-in-as": [
-    {
-      "type": 0,
-      "value": "Συνδεθήκατε ως "
-    },
-    {
-      "type": 1,
-      "value": "username"
-    }
-  ],
-  "label.login": [
-    {
-      "type": 0,
-      "value": "Είσοδος"
-    }
-  ],
-  "label.logout": [
-    {
-      "type": 0,
-      "value": "Αποσύνδεση"
-    }
-  ],
-  "label.more": [
-    {
-      "type": 0,
-      "value": "Περισσότερα"
-    }
-  ],
-  "label.name": [
-    {
-      "type": 0,
-      "value": "Όνομα"
-    }
-  ],
-  "label.new-password": [
-    {
-      "type": 0,
-      "value": "Νέος κωδικός"
-    }
-  ],
-  "label.none": [
-    {
-      "type": 0,
-      "value": "None"
-    }
-  ],
-  "label.owner": [
-    {
-      "type": 0,
-      "value": "Owner"
-    }
-  ],
-  "label.password": [
-    {
-      "type": 0,
-      "value": "Κωδικός"
-    }
-  ],
-  "label.passwords-dont-match": [
-    {
-      "type": 0,
-      "value": "Οι κωδικοί πρόσβασης δεν ταιριάζουν"
-    }
-  ],
-  "label.profile": [
-    {
-      "type": 0,
-      "value": "Προφίλ"
-    }
-  ],
-  "label.realtime": [
-    {
-      "type": 0,
-      "value": "Realtime"
-    }
-  ],
-  "label.realtime-logs": [
-    {
-      "type": 0,
-      "value": "Realtime logs"
-    }
-  ],
-  "label.refresh": [
-    {
-      "type": 0,
-      "value": "Ανανέωση"
-    }
-  ],
-  "label.required": [
-    {
-      "type": 0,
-      "value": "Απαιτείται"
-    }
-  ],
-  "label.reset": [
-    {
-      "type": 0,
-      "value": "Επαναφορά"
-    }
-  ],
-  "label.reset-website": [
-    {
-      "type": 0,
-      "value": "Reset statistics"
-    }
-  ],
-  "label.save": [
-    {
-      "type": 0,
-      "value": "Αποθήκευση"
-    }
-  ],
-  "label.settings": [
-    {
-      "type": 0,
-      "value": "Ρυθμίσεις"
-    }
-  ],
-  "label.share-url": [
-    {
-      "type": 0,
-      "value": "Κοινοποίηση διεύθυνσης URL"
-    }
-  ],
-  "label.single-day": [
-    {
-      "type": 0,
-      "value": "Ημερήσια"
-    }
-  ],
-  "label.theme": [
-    {
-      "type": 0,
-      "value": "Theme"
-    }
-  ],
-  "label.this-month": [
-    {
-      "type": 0,
-      "value": "Αυτο το μήνα"
-    }
-  ],
-  "label.this-week": [
-    {
-      "type": 0,
-      "value": "Αυτή την εβδομάδα"
-    }
-  ],
-  "label.this-year": [
-    {
-      "type": 0,
-      "value": "Αυτή την χρονιά"
-    }
-  ],
-  "label.timezone": [
-    {
-      "type": 0,
-      "value": "Ζώνη ώρας"
-    }
-  ],
-  "label.today": [
-    {
-      "type": 0,
-      "value": "Σήμερα"
-    }
-  ],
-  "label.tracking-code": [
-    {
-      "type": 0,
-      "value": "Κωδικός παρακολούθησης"
-    }
-  ],
-  "label.unknown": [
-    {
-      "type": 0,
-      "value": "Άγνωστο"
-    }
-  ],
-  "label.username": [
-    {
-      "type": 0,
-      "value": "Όνομα χρήστη"
-    }
-  ],
-  "label.view-details": [
-    {
-      "type": 0,
-      "value": "Λεπτομέρειες"
-    }
-  ],
-  "label.websites": [
-    {
-      "type": 0,
-      "value": "Ιστότοποι"
-    }
-  ],
-  "message.active-users": [
-    {
-      "type": 1,
-      "value": "x"
-    },
-    {
-      "type": 0,
-      "value": " ενεργοί "
-    },
-    {
-      "offset": 0,
-      "options": {
-        "one": {
-          "value": [
-            {
-              "type": 0,
-              "value": "επισκέπτης"
-            }
-          ]
-        },
-        "other": {
-          "value": [
-            {
-              "type": 0,
-              "value": "επισκέπτες"
-            }
-          ]
-        }
-      },
-      "pluralType": "cardinal",
-      "type": 6,
-      "value": "x"
-    }
-  ],
-  "message.confirm-delete": [
-    {
-      "type": 0,
-      "value": "Είστε βέβαιοι ότι θέλετε να διαγράψετε το "
-    },
-    {
-      "type": 1,
-      "value": "target"
-    },
-    {
-      "type": 0,
-      "value": ";"
-    }
-  ],
-  "message.confirm-reset": [
-    {
-      "type": 0,
-      "value": "Are your sure you want to reset "
-    },
-    {
-      "type": 1,
-      "value": "target"
-    },
-    {
-      "type": 0,
-      "value": "'s statistics?"
-    }
-  ],
-  "message.copied": [
-    {
-      "type": 0,
-      "value": "Αντιγράφηκε!"
-    }
-  ],
-  "message.delete-warning": [
-    {
-      "type": 0,
-      "value": "Όλα τα σχετικά δεδομένα θα διαγραφούν επίσης."
-    }
-  ],
-  "message.edit-dashboard": [
-    {
-      "type": 0,
-      "value": "Edit dashboard"
-    }
-  ],
-  "message.failure": [
-    {
-      "type": 0,
-      "value": "Κάτι πήγε στραβά."
-    }
-  ],
-  "message.get-share-url": [
-    {
-      "type": 0,
-      "value": "Λήψη URL κοινής χρήσης"
-    }
-  ],
-  "message.get-tracking-code": [
-    {
-      "type": 0,
-      "value": "Λήψη κώδικα παρακολούθησης"
-    }
-  ],
-  "message.go-to-settings": [
-    {
-      "type": 0,
-      "value": "Μεταβείτε στις ρυθμίσεις"
-    }
-  ],
-  "message.incorrect-username-password": [
-    {
-      "type": 0,
-      "value": "Εσφαλμένο όνομα χρήστη / κωδικός πρόσβασης."
-    }
-  ],
-  "message.log.visitor": [
-    {
-      "type": 0,
-      "value": "Visitor from "
-    },
-    {
-      "type": 1,
-      "value": "country"
-    },
-    {
-      "type": 0,
-      "value": " using "
-    },
-    {
-      "type": 1,
-      "value": "browser"
-    },
-    {
-      "type": 0,
-      "value": " on "
-    },
-    {
-      "type": 1,
-      "value": "os"
-    },
-    {
-      "type": 0,
-      "value": " "
-    },
-    {
-      "type": 1,
-      "value": "device"
-    }
-  ],
-  "message.new-version-available": [
-    {
-      "type": 0,
-      "value": "A new version of umami "
-    },
-    {
-      "type": 1,
-      "value": "version"
-    },
-    {
-      "type": 0,
-      "value": " is available!"
-    }
-  ],
-  "message.no-data-available": [
-    {
-      "type": 0,
-      "value": "Δεν υπάρχουν διαθέσιμα δεδομένα."
-    }
-  ],
-  "message.no-websites-configured": [
-    {
-      "type": 0,
-      "value": "Δεν έχετε ρυθμίσει κανένα ιστότοπο."
-    }
-  ],
-  "message.page-not-found": [
-    {
-      "type": 0,
-      "value": "Η σελίδα δεν βρέθηκε."
-    }
-  ],
-  "message.powered-by": [
-    {
-      "type": 0,
-      "value": "Με την υποστήριξη του "
-    },
-    {
-      "type": 1,
-      "value": "name"
-    }
-  ],
-  "message.reset-warning": [
-    {
-      "type": 0,
-      "value": "All statistics for this website will be deleted, but your tracking code will remain intact."
-    }
-  ],
-  "message.save-success": [
-    {
-      "type": 0,
-      "value": "Αποθηκεύτηκε επιτυχώς."
-    }
-  ],
-  "message.share-url": [
-    {
-      "type": 0,
-      "value": "Αυτό είναι το κοινόχρηστο URL για το "
-    },
-    {
-      "type": 1,
-      "value": "target"
-    },
-    {
-      "type": 0,
-      "value": "."
-    }
-  ],
-  "message.toggle-charts": [
-    {
-      "type": 0,
-      "value": "Toggle charts"
-    }
-  ],
-  "message.track-stats": [
-    {
-      "type": 0,
-      "value": "Για να παρακολουθείτε στατιστικά στοιχεία για "
-    },
-    {
-      "type": 1,
-      "value": "target"
-    },
-    {
-      "type": 0,
-      "value": ", τοποθετήστε τον ακόλουθο κώδικα στην ενότητα "
-    },
-    {
-      "type": 1,
-      "value": "head"
-    },
-    {
-      "type": 0,
-      "value": " του ιστότοπού σας."
-    }
-  ],
-  "message.type-delete": [
-    {
-      "type": 0,
-      "value": "Πληκτρολογήστε "
-    },
-    {
-      "type": 1,
-      "value": "delete"
-    },
-    {
-      "type": 0,
-      "value": " στο παρακάτω πλαίσιο για επιβεβαίωση."
-    }
-  ],
-  "message.type-reset": [
-    {
-      "type": 0,
-      "value": "Πληκτρολογήστε "
-    },
-    {
-      "type": 1,
-      "value": "reset"
-    },
-    {
-      "type": 0,
-      "value": " στο παρακάτω πλαίσιο για επιβεβαίωση."
-    }
-  ],
-  "metrics.actions": [
-    {
-      "type": 0,
-      "value": "Ενέργειες"
-    }
-  ],
-  "metrics.average-visit-time": [
-    {
-      "type": 0,
-      "value": "Μέσος χρόνος επίσκεψης"
-    }
-  ],
-  "metrics.bounce-rate": [
-    {
-      "type": 0,
-      "value": "Ποσοστό αναπήδησης"
-    }
-  ],
-  "metrics.browsers": [
-    {
-      "type": 0,
-      "value": "Προγράμματα περιήγησης"
-    }
-  ],
-  "metrics.countries": [
-    {
-      "type": 0,
-      "value": "Χώρες"
-    }
-  ],
-  "metrics.device.desktop": [
-    {
-      "type": 0,
-      "value": "Σταθερός υπολογιστής"
-    }
-  ],
-  "metrics.device.laptop": [
-    {
-      "type": 0,
-      "value": "Λάπτοπ"
-    }
-  ],
-  "metrics.device.mobile": [
-    {
-      "type": 0,
-      "value": "Κινητό"
-    }
-  ],
-  "metrics.device.tablet": [
-    {
-      "type": 0,
-      "value": "Τάμπλετ"
-    }
-  ],
-  "metrics.devices": [
-    {
-      "type": 0,
-      "value": "Συσκευές"
-    }
-  ],
-  "metrics.events": [
-    {
-      "type": 0,
-      "value": "Γεγονότα"
-    }
-  ],
-  "metrics.filter.combined": [
-    {
-      "type": 0,
-      "value": "Σε συνδυασμό"
-    }
-  ],
-  "metrics.filter.raw": [
-    {
-      "type": 0,
-      "value": "Ακατέργαστο"
-    }
-  ],
-  "metrics.languages": [
-    {
-      "type": 0,
-      "value": "Languages"
-    }
-  ],
-  "metrics.operating-systems": [
-    {
-      "type": 0,
-      "value": "Λειτουργικά συστήματα"
-    }
-  ],
-  "metrics.page-views": [
-    {
-      "type": 0,
-      "value": "Προβολές σελίδας"
-    }
-  ],
-  "metrics.pages": [
-    {
-      "type": 0,
-      "value": "Σελίδες"
-    }
-  ],
-  "metrics.query-parameters": [
-    {
-      "type": 0,
-      "value": "Query parameters"
-    }
-  ],
-  "metrics.referrers": [
-    {
-      "type": 0,
-      "value": "Παραπομπές"
-    }
-  ],
-  "metrics.screens": [
-    {
-      "type": 0,
-      "value": "Screens"
-    }
-  ],
-  "metrics.unique-visitors": [
-    {
-      "type": 0,
-      "value": "Μοναδικοί επισκέπτες"
-    }
-  ],
-  "metrics.views": [
-    {
-      "type": 0,
-      "value": "Προβολές"
-    }
-  ],
-  "metrics.visitors": [
-    {
-      "type": 0,
-      "value": "Επισκέπτες"
-    }
-  ]
+  "label": {
+    "access-code": "Κωδικός πρόσβασης",
+    "account": "Λογαριασμός",
+    "action": "Ενέργεια",
+    "actions": "Ενέργειες",
+    "activity": "Activity log",
+    "add": "Προσθήκη",
+    "add-board": "Προσθήκη πίνακα",
+    "add-description": "Προσθήκη περιγραφής",
+    "add-link": "Προσθήκη συνδέσμου",
+    "add-member": "Προσθήκη μέλους",
+    "add-pixel": "Προσθήκη pixel",
+    "add-step": "Προσθήκη βήματος",
+    "add-website": "Προσθήκη ιστότοπου",
+    "admin": "Διαχειριστής",
+    "affiliate": "Συνεργάτης",
+    "after": "Μετά",
+    "all": "Όλα",
+    "all-time": "Από πάντα",
+    "analysis": "Ανάλυση",
+    "analytics": "Αναλυτικά",
+    "application": "Εφαρμογή",
+    "apply": "Εφαρμογή",
+    "attribution": "Απόδοση",
+    "attribution-description": "Δείτε πώς αλληλεπιδρούν οι χρήστες με το μάρκετινγκ και τι οδηγεί σε μετατροπές.",
+    "audience": "Κοινό",
+    "average": "Μέσος όρος",
+    "back": "Πίσω",
+    "before": "Πριν",
+    "behavior": "Συμπεριφορά",
+    "block-selector": "Επιλογέας μπλοκ",
+    "boards": "Πίνακες",
+    "board-type": "Τύπος σανίδας",
+    "bounce-rate": "Ποσοστό αναπήδησης",
+    "breakdown": "Ανάλυση",
+    "browser": "Πρόγραμμα περιήγησης",
+    "browsers": "Προγράμματα περιήγησης",
+    "campaign": "Καμπάνια",
+    "campaigns": "Καμπάνιες",
+    "cancel": "Ακύρωση",
+    "close": "Κλείσιμο",
+    "change-password": "Αλλαγή κωδικού",
+    "channel": "Κανάλι",
+    "channels": "Κανάλια",
+    "chart": "Γράφημα",
+    "cities": "Πόλεις",
+    "city": "Πόλη",
+    "clear-all": "Εκκαθάριση όλων",
+    "cls": "CLS",
+    "cohort": "Κοόρτη",
+    "cohorts": "Κοόρτες",
+    "compare": "Σύγκριση",
+    "compare-dates": "Σύγκριση ημερομηνιών",
+    "confirm": "Επιβεβαίωση",
+    "confirm-password": "Επιβεβαίωση κωδικού",
+    "contains": "Περιέχει",
+    "regex-match": "Ταιριάζει με κανονική έκφραση",
+    "regex-not-match": "Δεν ταιριάζει με κανονική έκφραση",
+    "content": "Περιεχόμενο",
+    "continue": "Συνέχεια",
+    "conversion": "Μετατροπή",
+    "conversion-rate": "Ποσοστό μετατροπής",
+    "conversion-step": "Βήμα μετατροπής",
+    "count": "Πλήθος",
+    "countries": "Χώρες",
+    "country": "Χώρα",
+    "create": "Δημιουργία",
+    "create-report": "Δημιουργία αναφοράς",
+    "create-team": "Δημιουργία ομάδας",
+    "create-user": "Δημιουργία χρήστη",
+    "created": "Δημιουργήθηκε",
+    "created-by": "Δημιουργήθηκε από",
+    "criteria": "Κριτήρια",
+    "cumulative": "Σωρευτικά",
+    "currency": "Νόμισμα",
+    "current": "Τρέχων",
+    "current-password": "Τωρινός κωδικός πρόσβασης",
+    "custom-range": "Προσαρμοσμένο εύρος",
+    "dashboard": "Πίνακας",
+    "data": "Δεδομένα",
+    "date": "Ημερομηνία",
+    "date-range": "Εύρος ημερομηνιών",
+    "day": "Ημέρα",
+    "default-date-range": "Προεπιλεγμένο εύρος ημερομηνιών",
+    "delete": "Διαγραφή",
+    "delete-report": "Διαγραφή αναφοράς",
+    "delete-team": "Διαγραφή ομάδας",
+    "delete-user": "Διαγραφή χρήστη",
+    "delete-website": "Διαγραφή ιστότοπου",
+    "description": "Περιγραφή",
+    "desktop": "Σταθερός υπολογιστής",
+    "destination-url": "URL προορισμού",
+    "details": "Λεπτομέρειες",
+    "device": "Συσκευή",
+    "devices": "Συσκευές",
+    "direct": "Άμεσο",
+    "dismiss": "Απόρριψη",
+    "distinct-id": "Μοναδικό ID",
+    "documentation": "Τεκμηρίωση",
+    "does-not-contain": "Δεν περιέχει",
+    "does-not-include": "Δεν περιλαμβάνει",
+    "doest-not-exist": "Δεν υπάρχει",
+    "domain": "Τομέας",
+    "download": "Λήψη",
+    "dropoff": "Εγκατάλειψη",
+    "duration": "Διάρκεια",
+    "min-duration-seconds": "Ελάχιστη διάρκεια (δευτερόλεπτα)",
+    "edit": "Επεξεργασία",
+    "design": "Σχεδίαση",
+    "edit-member": "Επεξεργασία μέλους",
+    "email": "Email",
+    "enable-share-url": "Ενεργοποίηση κοινής χρήσης URL",
+    "end-step": "Τελικό βήμα",
+    "entry": "Entry URL",
+    "environment": "Περιβάλλον",
+    "event": "Συμβάν",
+    "event-data": "Δεδομένα συμβάντος",
+    "event-properties": "Δεδομένα συμβάντος",
+    "event-name": "Όνομα συμβάντος",
+    "events": "Γεγονότα",
+    "exclude-bounce": "Εξαίρεση αναπήδησης",
+    "exists": "Υπάρχει",
+    "exit": "Exit URL",
+    "false": "Ψευδές",
+    "fcp": "FCP",
+    "field": "Πεδίο",
+    "fields": "Πεδία",
+    "filter": "Φίλτρο",
+    "filter-combined": "Σε συνδυασμό",
+    "filter-raw": "Ακατέργαστο",
+    "filters": "Φίλτρα",
+    "filters-enabled": "Φίλτρα ενεργοποιημένα",
+    "property-filter": "Φίλτρο ιδιοκτησίας",
+    "activity-by-property": "Δραστηριότητα ανά ιδιοκτησία",
+    "first-click": "Πρώτο κλικ",
+    "first-seen": "Πρώτη εμφάνιση",
+    "funnel": "Χωνί",
+    "funnel-description": "Κατανοήστε το ποσοστό μετατροπής και εγκατάλειψης χρηστών.",
+    "funnels": "Χωνιά",
+    "goal": "Στόχος",
+    "goals": "Στόχοι",
+    "good": "Καλό",
+    "goals-description": "Παρακολουθήστε τους στόχους σας για προβολές σελίδων και συμβάντα.",
+    "greater-than": "Μεγαλύτερο από",
+    "greater-than-equals": "Μεγαλύτερο ή ίσο",
+    "grouped": "Ομαδοποιημένα",
+    "growth": "Ανάπτυξη",
+    "heatmap": "Χάρτης θερμότητας",
+    "heatmap-description": "Οραματιστείτε πού κάνουν κλικ οι επισκέπτες και πόσο μακριά κάνουν κύλιση στις σελίδες σας.",
+    "heatmaps": "Χάρτες θερμότητας",
+    "hostname": "Όνομα κεντρικού υπολογιστή",
+    "hour": "Ώρα",
+    "includes": "Περιλαμβάνει",
+    "insight": "Πληροφορία",
+    "insights": "Πληροφορίες",
+    "insights-description": "Εμβαθύνετε στα δεδομένα σας χρησιμοποιώντας τμήματα και φίλτρα.",
+    "inp": "INP",
+    "invalid-url": "Μη έγκυρο URL",
+    "is": "Είναι",
+    "is-false": "Είναι ψευδές",
+    "is-not": "Δεν είναι",
+    "is-not-set": "Δεν έχει οριστεί",
+    "is-set": "Έχει οριστεί",
+    "is-true": "Είναι αληθές",
+    "join": "Συμμετοχή",
+    "join-team": "Συμμετοχή σε ομάδα",
+    "journey": "Διαδρομή",
+    "journey-description": "Κατανοήστε πώς πλοηγούνται οι χρήστες στον ιστότοπό σας.",
+    "journeys": "Διαδρομές",
+    "language": "Γλώσσα",
+    "languages": "Γλώσσες",
+    "laptop": "Λάπτοπ",
+    "last-click": "Τελευταίο κλικ",
+    "last-days": "Τελευταίες {x} ημέρες",
+    "last-hours": "Τελευταίες {x} ώρες",
+    "last-months": "Τελευταίοι {x} μήνες",
+    "last-seen": "Τελευταία εμφάνιση",
+    "lcp": "LCP",
+    "leave": "Αποχώρηση",
+    "leave-team": "Αποχώρηση από ομάδα",
+    "less-than": "Μικρότερο από",
+    "less-than-equals": "Μικρότερο ή ίσο",
+    "link": "Σύνδεσμος",
+    "links": "Σύνδεσμοι",
+    "location": "Τοποθεσία",
+    "login": "Είσοδος",
+    "llm": "LLM",
+    "logout": "Αποσύνδεση",
+    "manage": "Διαχείριση",
+    "manager": "Διαχειριστής",
+    "mask-level": "Επίπεδο μάσκας",
+    "max": "Μέγ",
+    "max-duration": "Μέγιστη διάρκεια",
+    "match": "Αντιστοίχιση",
+    "match-all": "Όλα",
+    "match-any": "Οποιοδήποτε",
+    "maximize": "Expand",
+    "medium": "Μέσο",
+    "member": "Μέλος",
+    "members": "Μέλη",
+    "min": "Ελάχ",
+    "minute": "Λεπτό",
+    "mobile": "Κινητό",
+    "model": "Μοντέλο",
+    "month": "Μήνας",
+    "more": "Περισσότερα",
+    "my-account": "Ο λογαριασμός μου",
+    "my-websites": "Οι ιστότοποί μου",
+    "name": "Όνομα",
+    "needs-improvement": "Χρειάζεται βελτίωση",
+    "new-password": "Νέος κωδικός",
+    "none": "Κανένα",
+    "number-of-records": "{x} {x, plural, one {εγγραφή} other {εγγραφές}}",
+    "ok": "OK",
+    "online": "Σε σύνδεση",
+    "open": "Μικτή",
+    "organic-search": "Οργανική αναζήτηση",
+    "organic-shopping": "Οργανικές αγορές",
+    "organic-social": "Οργανικά κοινωνικά",
+    "organic-video": "Οργανικό βίντεο",
+    "os": "ΛΣ",
+    "other": "Άλλο",
+    "overview": "Επισκόπηση",
+    "owner": "Ιδιοκτήτης",
+    "page": "Σελίδα",
+    "page-of": "Σελίδα {current} από {total}",
+    "page-views": "Προβολές σελίδας",
+    "pageTitle": "Τίτλος σελίδας",
+    "period": "Περίοδος",
+    "pages": "Σελίδες",
+    "paid-ads": "Πληρωμένες διαφημίσεις",
+    "paid-search": "Πληρωμένη αναζήτηση",
+    "paid-shopping": "Πληρωμένες αγορές",
+    "paid-social": "Πληρωμένα κοινωνικά",
+    "paid-video": "Πληρωμένο βίντεο",
+    "password": "Κωδικός",
+    "path": "Διαδρομή",
+    "paths": "Διαδρομές",
+    "performance": "Απόδοση",
+    "pixel": "Pixel",
+    "pixels": "Pixels",
+    "poor": "Κακό",
+    "powered-by": "Με την υποστήριξη του {name}",
+    "preferences": "Προτιμήσεις",
+    "previous": "Προηγούμενο",
+    "previous-period": "Προηγούμενη περίοδος",
+    "previous-year": "Προηγούμενο έτος",
+    "profile": "Προφίλ",
+    "profiles": "Προφίλ",
+    "properties": "Ιδιότητες",
+    "property": "Ιδιότητα",
+    "queries": "Ερωτήματα",
+    "query": "Ερώτημα",
+    "query-parameters": "Παράμετροι ερωτήματος",
+    "realtime": "Πραγματικός χρόνος",
+    "recorded": "Καταγράφηκε στις",
+    "referral": "Παραπομπή",
+    "referrer": "Παραπέμπων",
+    "referrers": "Παραπομπές",
+    "refresh": "Ανανέωση",
+    "regenerate": "Αναδημιουργία",
+    "region": "Περιφέρεια",
+    "regions": "Περιφέρειες",
+    "remaining": "Υπολειπόμενα",
+    "remove": "Αφαίρεση",
+    "remove-member": "Αφαίρεση μέλους",
+    "play": "Αναπαραγωγή",
+    "replay": "Επανάληψη",
+    "replay-id": "Replay ID",
+    "recorder-code": "Κωδικός εγγραφής",
+    "replay-enabled": "Επανάληψη ενεργοποιημένη",
+    "replays": "Επαναλήψεις",
+    "reports": "Αναφορές",
+    "required": "Απαιτείται",
+    "reset": "Επαναφορά",
+    "reset-website": "Reset statistics",
+    "retention": "Διατήρηση",
+    "retention-days": "Ημέρες διατήρησης",
+    "retention-description": "Μετρήστε την ικανότητα διατήρησης χρηστών του ιστότοπού σας.",
+    "revenue": "Έσοδα",
+    "revenue-description": "Look into your revenue across time.",
+    "role": "Ρόλος",
+    "run-query": "Εκτέλεση ερωτήματος",
+    "save": "Αποθήκευση",
+    "save-cohort": "Αποθήκευση κοόρτης",
+    "save-replay": "Αποθήκευση επανάληψης",
+    "save-segment": "Αποθήκευση τμήματος",
+    "sample-rate": "Ρυθμός δειγματοληψίας",
+    "sample-size": "Μέγεθος δείγματος",
+    "screen": "Οθόνη",
+    "screens": "Οθόνες",
+    "search": "Αναζήτηση",
+    "segment": "Τμήμα",
+    "segments": "Τμήματα",
+    "select": "Επιλογή",
+    "select-link": "Επιλέξτε σύνδεσμο",
+    "select-pixel": "Επιλέξτε pixel",
+    "select-date": "Επιλογή ημερομηνίας",
+    "select-filter": "Επιλογή φίλτρου",
+    "select-role": "Επιλογή ρόλου",
+    "select-component": "Επιλέξτε στοιχείο",
+    "select-event": "Επιλέξτε ένα συμβάν",
+    "select-website": "Επιλογή ιστότοπου",
+    "session": "Συνεδρία",
+    "session-data": "Δεδομένα συνεδρίας",
+    "sessions": "Συνεδρίες",
+    "settings": "Ρυθμίσεις",
+    "share": "Κοινοποίηση",
+    "share-url": "Κοινοποίηση διεύθυνσης URL",
+    "single-day": "Ημερήσια",
+    "slug": "Slug",
+    "sms": "SMS",
+    "source": "Πηγή",
+    "sources": "Πηγές",
+    "start-step": "Αρχικό βήμα",
+    "steps": "Βήματα",
+    "sum": "Άθροισμα",
+    "support": "Υποστήριξη",
+    "switch-account": "Αλλαγή λογαριασμού",
+    "switch-to-card-view": "Εναλλαγή σε προβολή καρτών",
+    "switch-to-table-view": "Εναλλαγή σε προβολή πίνακα",
+    "table": "Πίνακας",
+    "tablet": "Τάμπλετ",
+    "tag": "Ετικέτα",
+    "tags": "Ετικέτες",
+    "team": "Ομάδα",
+    "team-id": "ID ομάδας",
+    "team-manager": "Υπεύθυνος ομάδας",
+    "team-member": "Μέλος ομάδας",
+    "team-name": "Όνομα ομάδας",
+    "team-owner": "Ιδιοκτήτης ομάδας",
+    "team-settings": "Ρυθμίσεις ομάδας",
+    "team-view-only": "Μόνο προβολή ομάδας",
+    "team-websites": "Ιστότοποι ομάδας",
+    "teams": "Ομάδες",
+    "term": "Όρος αναζήτησης",
+    "terms": "Όροι",
+    "theme": "Θέμα",
+    "this-month": "Αυτο το μήνα",
+    "this-week": "Αυτή την εβδομάδα",
+    "this-year": "Αυτή την χρονιά",
+    "timezone": "Ζώνη ώρας",
+    "title": "Τίτλος",
+    "today": "Σήμερα",
+    "toggle-charts": "Εναλλαγή γραφημάτων",
+    "total": "Σύνολο",
+    "total-records": "Σύνολο εγγραφών",
+    "tracking-code": "Κωδικός παρακολούθησης",
+    "traffic": "Κίνηση",
+    "transactions": "Συναλλαγές",
+    "transfer": "Μεταφορά",
+    "transfer-website": "Μεταφορά ιστότοπου",
+    "true": "Αληθές",
+    "ttfb": "TTFB",
+    "type": "Τύπος",
+    "unique": "Μοναδικό",
+    "unique-events": "Μοναδικά συμβάντα",
+    "unique-visitors": "Μοναδικοί επισκέπτες",
+    "aov": "AOV",
+    "arpu": "ARPU",
+    "uniqueCustomers": "Μοναδικοί πελάτες",
+    "customers": "Πελάτες",
+    "orders": "Παραγγελίες",
+    "saved": "Αποθηκεύτηκε",
+    "unknown": "Άγνωστο",
+    "untitled": "Χωρίς τίτλο",
+    "upgrade": "Αναβάθμιση",
+    "update": "Ενημέρωση",
+    "url": "URL",
+    "user": "Χρήστης",
+    "username": "Όνομα χρήστη",
+    "users": "Χρήστες",
+    "utm": "UTM",
+    "utm-campaign": "UTM Καμπάνια",
+    "utm-content": "UTM Περιεχόμενο",
+    "utm-description": "Παρακολουθήστε τις καμπάνιες σας μέσω παραμέτρων UTM.",
+    "utm-medium": "UTM Μέσο",
+    "utm-source": "UTM Πηγή",
+    "utm-term": "UTM Όρος",
+    "value": "Τιμή",
+    "version": "Έκδοση",
+    "view": "Προβολή",
+    "view-details": "Λεπτομέρειες",
+    "view-only": "Μόνο προβολή",
+    "views": "Προβολές",
+    "views-per-visit": "Προβολές ανά επίσκεψη",
+    "visit-duration": "Μέσος χρόνος επίσκεψης",
+    "visitors": "Επισκέπτες",
+    "visits": "Επισκέψεις",
+    "website": "Ιστότοπος",
+    "website-id": "ID ιστότοπου",
+    "websites": "Ιστότοποι",
+    "window": "Παράθυρο",
+    "yesterday": "Χθες",
+    "security": "Ασφάλεια",
+    "two-factor-auth": "Έλεγχος ταυτότητας δύο παραγόντων",
+    "two-factor-setup-title": "Ρύθμιση ελέγχου ταυτότητας δύο παραγόντων",
+    "two-factor-step1": "Βήμα 1",
+    "two-factor-step2": "Βήμα 2",
+    "two-factor-scan-qr": "Σάρωση κωδικού QR",
+    "two-factor-cant-scan": "Δεν μπορείτε να σαρώσετε τον κωδικό QR;",
+    "two-factor-manual-entry": "Πληκτρολογήστε αυτό το μυστικό αντ' αυτού:",
+    "two-factor-copy-code": "Αντιγραφή κωδικού",
+    "two-factor-code-copied": "Αντιγράφηκε!",
+    "two-factor-get-code": "Λάβετε κωδικό επαλήθευσης",
+    "two-factor-enter-code": "Εισαγάγετε τον κωδικό επαλήθευσης",
+    "two-factor-use-backup": "Χρησιμοποιήστε αντίθετα έναν εφεδρικό κωδικό",
+    "two-factor-save-backup-codes": "Αποθηκεύστε τους εφεδρικούς κωδικούς σας",
+    "two-factor-download-codes": "Λήψη κωδικών",
+    "two-factor-saved-codes": "Έχω αποθηκεύσει τους εφεδρικούς κωδικούς μου",
+    "two-factor-backup-file-title": "Umami - Εφεδρικοί κωδικοί ελέγχου ταυτότητας δύο παραγόντων",
+    "two-factor-success-title": "Ο έλεγχος ταυτότητας δύο παραγόντων ενεργοποιήθηκε",
+    "two-factor-enable": "Ενεργοποίηση 2FA",
+    "two-factor-disable": "Απενεργοποίηση 2FA",
+    "two-factor-disable-title": "Απενεργοποιήστε τον έλεγχο ταυτότητας δύο παραγόντων",
+    "two-factor-status-not-configured": "Δεν έχει ρυθμιστεί",
+    "two-factor-active": "Ενεργός",
+    "two-factor-require-global": "Απαιτείται 2FA για όλους τους χρήστες",
+    "two-factor-require-user": "Απαιτείται 2FA για αυτόν τον χρήστη",
+    "two-factor-require-team": "Απαιτείται 2FA για όλα τα μέλη αυτής της ομάδας",
+    "two-factor-reset": "Επαναφορά 2FA",
+    "two-factor-global-active-tooltip": "Η καθολική 2FA είναι ενεργοποιημένη",
+    "two-factor-verify": "Επαλήθευση",
+    "two-factor-login": "Έλεγχος ταυτότητας δύο παραγόντων"
+  },
+  "message": {
+    "action-confirmation": "Πληκτρολογήστε {confirmation} στο παρακάτω πεδίο για επιβεβαίωση.",
+    "active-users": "{x} ενεργοί {x, plural, one {επισκέπτης} other {επισκέπτες}}",
+    "bad-request": "Μη έγκυρο αίτημα",
+    "collected-data": "Συλλεχθέντα δεδομένα",
+    "confirm-delete": "Είστε βέβαιοι ότι θέλετε να διαγράψετε το {target};",
+    "confirm-leave": "Είστε σίγουροι ότι θέλετε να αποχωρήσετε από <b>{target}</b>;",
+    "confirm-remove": "Είστε σίγουροι ότι θέλετε να αφαιρέσετε <b>{target}</b>;",
+    "confirm-reset": "Are your sure you want to reset {target}'s statistics?",
+    "delete-team-warning": "Η διαγραφή μιας ομάδας θα διαγράψει επίσης όλους τους ιστότοπους της ομάδας.",
+    "delete-website-warning": "Όλα τα σχετικά δεδομένα θα διαγραφούν επίσης.",
+    "error": "Κάτι πήγε στραβά.",
+    "empty-dashboard": "Ο πίνακας ελέγχου σας είναι κενός. Κάντε κλικ στη Σχεδίαση για να προσθέσετε το πρώτο σας στοιχείο.",
+    "event-log": "<b>{event}</b> στο <a>{url}</a>",
+    "forbidden": "Απαγορευμένο",
+    "go-to-settings": "Μεταβείτε στις ρυθμίσεις",
+    "incorrect-username-password": "Εσφαλμένο όνομα χρήστη / κωδικός πρόσβασης.",
+    "invalid-domain": "Μη έγκυρος τομέας",
+    "invalid-value": "Μη έγκυρη τιμή",
+    "min-password-length": "Ελάχιστο μήκος {n} χαρακτήρων",
+    "new-version-available": "Μια νέα έκδοση του Umami {version} είναι διαθέσιμη!",
+    "no-data-available": "Δεν υπάρχουν διαθέσιμα δεδομένα.",
+    "no-event-data": "Δεν υπάρχουν διαθέσιμα δεδομένα συμβάντων.",
+    "no-match-password": "Οι κωδικοί πρόσβασης δεν ταιριάζουν",
+    "no-results-found": "No results were found.",
+    "no-team-websites": "Αυτή η ομάδα δεν έχει ιστότοπους.",
+    "no-teams": "Δεν έχετε δημιουργήσει ομάδες.",
+    "no-users": "Δεν υπάρχουν χρήστες.",
+    "no-websites-configured": "Δεν έχετε ρυθμίσει κανένα ιστότοπο.",
+    "not-found": "Δεν βρέθηκε",
+    "nothing-selected": "Τίποτα δεν έχει επιλεγεί.",
+    "page-not-found": "Η σελίδα δεν βρέθηκε.",
+    "reset-website": "Για να επαναφέρετε αυτόν τον ιστότοπο, πληκτρολογήστε {confirmation} στο παρακάτω πεδίο.",
+    "reset-website-warning": "All statistics for this website will be deleted, but your tracking code will remain intact.",
+    "saved": "Αποθηκεύτηκε επιτυχώς.",
+    "select-board-entity-first": "Επιλέξτε πρώτα έναν ιστότοπο, ένα pixel ή έναν σύνδεσμο.",
+    "select-component-preview": "Επιλέξτε ένα στοιχείο για προεπισκόπηση",
+    "select-website-first": "Επιλέξτε πρώτα έναν ιστότοπο",
+    "sever-error": "Σφάλμα διακομιστή",
+    "share-url": "Αυτό είναι το κοινόχρηστο URL για το {target}.",
+    "team-already-member": "Είστε ήδη μέλος της ομάδας.",
+    "team-not-found": "Η ομάδα δεν βρέθηκε.",
+    "team-websites-info": "Οι ιστότοποι μπορούν να προβληθούν από οποιονδήποτε στην ομάδα.",
+    "tracking-code": "Κωδικός παρακολούθησης",
+    "transfer-team-website-to-user": "Μεταφορά αυτού του ιστότοπου στον λογαριασμό σας;",
+    "transfer-user-website-to-team": "Επιλέξτε την ομάδα για μεταφορά αυτού του ιστότοπου.",
+    "transfer-website": "Μεταφέρετε την ιδιοκτησία του ιστότοπου στον λογαριασμό σας ή σε άλλη ομάδα.",
+    "triggered-event": "Ενεργοποιημένο συμβάν",
+    "unauthorized": "Μη εξουσιοδοτημένο",
+    "user-deleted": "Ο χρήστης διαγράφηκε.",
+    "replay-min-duration-description": "Εμφάνιση μόνο αναπαραγωγών με αυτή ή μεγαλύτερη διάρκεια.",
+    "viewed-page": "Προβολή σελίδας",
+    "upgrade-required": "Αυτή η δυνατότητα απαιτεί συνδρομή προγράμματος {plan}.",
+    "visitor-log": "Επισκέπτης από <b>{country}</b> χρησιμοποιώντας <b>{browser}</b> σε <b>{os}</b> <b>{device}</b>",
+    "two-factor-setup-description": "Κάθε φορά που συνδέεστε, εκτός από τον κωδικό πρόσβασής σας, θα χρησιμοποιείτε μια εφαρμογή ελέγχου ταυτότητας για να δημιουργήσετε και να χρησιμοποιήσετε έναν κωδικό μιας χρήσης.",
+    "two-factor-setup-required-description": "Απαιτείται έλεγχος ταυτότητας δύο παραγόντων (2FA) για πρόσβαση στο Umami.",
+    "two-factor-step1-description": "Σαρώστε τον κωδικό QR παρακάτω ή εισαγάγετε μη αυτόματα το μυστικό κλειδί στην εφαρμογή ελέγχου ταυτότητας.",
+    "two-factor-step2-description": "Εισαγάγετε τον 6ψήφιο κωδικό που βλέπετε στην εφαρμογή ελέγχου ταυτότητας.",
+    "two-factor-enabled-description": "Ο λογαριασμός σας προστατεύεται πλέον με έλεγχο ταυτότητας δύο παραγόντων. Από εδώ και στο εξής, θα πρέπει να εισάγετε έναν κωδικό από την εφαρμογή ελέγχου ταυτότητας κάθε φορά που συνδέεστε.",
+    "two-factor-backup-description": "Εάν χάσετε την πρόσβαση στην εφαρμογή ελέγχου ταυτότητας, μπορείτε να χρησιμοποιήσετε έναν από αυτούς τους εφεδρικούς κωδικούς για να συνδεθείτε. Αποθηκεύστε τους σε ασφαλές μέρος. δεν θα εμφανιστούν ξανά.",
+    "two-factor-backup-codes-once": "Διατηρήστε αυτούς τους κωδικούς ασφαλείς. Κάθε κωδικός μπορεί να χρησιμοποιηθεί μόνο μία φορά.",
+    "two-factor-login-description": "Εισαγάγετε τον 6ψήφιο κωδικό από την εφαρμογή ελέγχου ταυτότητας.",
+    "two-factor-disable-description": "Για επιβεβαίωση, εισαγάγετε τον κωδικό πρόσβασής σας και έναν κωδικό επαλήθευσης από την εφαρμογή ελέγχου ταυτότητας.",
+    "two-factor-required-message": "Απαιτείται έλεγχος ταυτότητας δύο παραγόντων για τον λογαριασμό σας και δεν μπορεί να απενεργοποιηθεί. Επικοινωνήστε με τον διαχειριστή σας για βοήθεια.",
+    "two-factor-override-note": "Οι ρυθμίσεις ανά χρήστη και ανά ομάδα 2FA παρακάμπτονται ενώ η καθολική 2FA είναι ενεργοποιημένη.",
+    "two-factor-admin-global-description": "Απαιτείται από όλους τους χρήστες να ρυθμίσουν τον έλεγχο ταυτότητας δύο παραγόντων κατά την επόμενη σύνδεση. Οι χρήστες που δεν έχουν ακόμη διαμορφώσει τις παραμέτρους του 2FA θα κληθούν να το κάνουν πριν μπορέσουν να αποκτήσουν πρόσβαση στο Umami.",
+    "two-factor-require-user-description": "Όταν ενεργοποιηθεί, θα ζητηθεί από αυτόν τον χρήστη να ρυθμίσει το 2FA στην επόμενη σύνδεσή του, εάν δεν το έχει κάνει ήδη.",
+    "two-factor-require-team-description": "Όταν ενεργοποιηθεί, θα ζητηθεί από όλα τα μέλη αυτής της ομάδας να ρυθμίσουν το 2FA στην επόμενη σύνδεσή τους, εάν δεν το έχουν κάνει ήδη.",
+    "two-factor-user-description": "Προσθέστε ένα επιπλέον επίπεδο ασφάλειας στον λογαριασμό σας. Κάθε φορά που συνδέεστε, θα χρειάζεστε τον κωδικό πρόσβασής σας και έναν κωδικό από την εφαρμογή ελέγχου ταυτότητας.",
+    "two-factor-reset-description": "Καταργήστε την τρέχουσα διαμόρφωση δύο παραγόντων αυτού του χρήστη. Εάν το 2FA εξακολουθεί να απαιτείται από την πολιτική, θα τους ζητηθεί να σαρώσουν έναν νέο κωδικό QR στην επόμενη σύνδεσή τους.",
+    "two-factor-error-invalid-code": "Μη έγκυρος κωδικός επαλήθευσης. Δοκιμάστε ξανά.",
+    "two-factor-error-missing-token": "Το διακριτικό ελέγχου ταυτότητας λείπει.",
+    "two-factor-error-invalid-partial-token": "Μη έγκυρο ή ληγμένο διακριτικό ελέγχου ταυτότητας.",
+    "two-factor-error-invalid-backup-code": "Μη έγκυρος εφεδρικός κωδικός.",
+    "two-factor-error-code-used": "Αυτός ο κωδικός έχει ήδη χρησιμοποιηθεί. Περιμένετε τον επόμενο κωδικό.",
+    "two-factor-error-too-many-attempts": "Πάρα πολλές αποτυχημένες προσπάθειες. Ο λογαριασμός σας είναι προσωρινά κλειδωμένος.",
+    "two-factor-error-disable-not-allowed": "Απαιτείται έλεγχος ταυτότητας δύο παραγόντων και δεν μπορεί να απενεργοποιηθεί.",
+    "two-factor-error-incorrect-password": "Λανθασμένος κωδικός πρόσβασης.",
+    "two-factor-error-already-enabled": "Ο έλεγχος ταυτότητας δύο παραγόντων είναι ήδη ενεργοποιημένος.",
+    "two-factor-error-not-enabled": "Ο έλεγχος ταυτότητας δύο παραγόντων δεν είναι ενεργοποιημένος.",
+    "two-factor-error-no-pending-setup": "Δεν βρέθηκε ρύθμιση ελέγχου ταυτότητας δύο παραγόντων σε εκκρεμότητα.",
+    "two-factor-locked-message": "Πάρα πολλές αποτυχημένες προσπάθειες. Δοκιμάστε ξανά στο {time}.",
+    "two-factor-active-description": "Ο λογαριασμός σας προστατεύεται με έλεγχο ταυτότητας δύο παραγόντων. Κάθε σύνδεση απαιτεί έναν κωδικό από την εφαρμογή ελέγχου ταυτότητας.",
+    "two-factor-error-not-configured": "Ο έλεγχος ταυτότητας δύο παραγόντων δεν είναι διαθέσιμος, επειδή ο διακομιστής δεν διαθέτει έγκυρο TWO_FACTOR_ENCRYPTION_KEY. Επικοινωνήστε με τον διαχειριστή σας για βοήθεια."
+  }
 }
