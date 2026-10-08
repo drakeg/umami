@@ -1,0 +1,12 @@
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Allow the fixed two-factor key used only by docker-compose integration tests"
+regexTarget = "line"
+paths = [
+  '''docker-compose\.test\.yml''',
+]
+regexes = [
+  '''TWO_FACTOR_ENCRYPTION_KEY:\s+0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef''',
+]
