@@ -26,8 +26,6 @@ jobs:
           node-version: 22
           cache: "pnpm"
       - run: pnpm install --frozen-lockfile
-      - name: Audit dependencies (diagnostic)
-        run: pnpm audit --json || true
       - run: pnpm openapi:generate
       - run: pnpm openapi:check --explicit
       - run: pnpm check:api:client
