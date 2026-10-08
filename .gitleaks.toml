@@ -2,11 +2,8 @@
 useDefault = true
 
 [[allowlists]]
-description = "Allow the fixed two-factor key used only by docker-compose integration tests"
-regexTarget = "line"
-paths = [
-  '''docker-compose\.test\.yml''',
-]
-regexes = [
-  '''TWO_FACTOR_ENCRYPTION_KEY:\s+0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef''',
+description = "Allow known non-production secrets used only by integration/unit tests"
+fingerprints = [
+  "947e2a80a7a53947decf04efe8dff9ff417251cf:docker-compose.test.yml:generic-api-key:36",
+  "947e2a80a7a53947decf04efe8dff9ff417251cf:src/lib/auth.test.ts:generic-api-key:73",
 ]
