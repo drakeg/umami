@@ -17,6 +17,14 @@
 
 ---
 
+## 📋 Project Documentation
+
+Fork-specific planning and engineering guidance:
+
+- [Project plan and sprint roadmap](./docs/PROJECT_PLAN.md)
+- [Coding standards](./docs/CODING_STANDARDS.md)
+- [Contributing](./CONTRIBUTING.md)
+
 ## 🚀 Getting Started
 
 A detailed getting started guide can be found at [umami.is/docs](https://umami.is/docs/).

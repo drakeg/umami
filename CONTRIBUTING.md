@@ -4,19 +4,20 @@ Thanks for your interest in contributing to Umami! This document outlines the pr
 
 ## Branching
 
-Umami uses the following long-lived branches:
+This fork uses `master` as the active integration and deployable branch.
 
-- `master` — stable, released code. **Do not open PRs against `master`.**
-- `dev` — active development. **All pull requests should target `dev`.**
+- Create feature, fix, documentation, and dependency branches from `master`.
+- Open pull requests against `master`.
+- Keep `master` green and deployable; do not bypass required CI or security checks.
 
-Feature branches and fixes are merged into `dev`, and `dev` is periodically merged into `master` for releases.
+If upstream Umami uses a different branching model, preserve upstream compatibility when syncing changes, but follow this fork's `master` workflow for local development.
 
 ## Submitting a Pull Request
 
-1. Fork the repository and create your branch from `dev`:
+1. Create your branch from the latest `master`:
    ```bash
-   git checkout dev
-   git pull origin dev
+   git checkout master
+   git pull origin master
    git checkout -b my-feature
    ```
 2. Make your changes. Keep PRs focused — one logical change per PR.
@@ -26,10 +27,10 @@ Feature branches and fixes are merged into `dev`, and `dev` is periodically merg
    pnpm build
    pnpm lint
    ```
-4. Push your branch and open a pull request **against the `dev` branch**.
+4. Push your branch and open a pull request **against `master`**.
 5. Fill in the PR description with what changed and why. Link any related issues.
 
-PRs opened against `master` will be asked to retarget `dev`.
+See [docs/CODING_STANDARDS.md](./docs/CODING_STANDARDS.md) for fork-specific engineering requirements and [docs/PROJECT_PLAN.md](./docs/PROJECT_PLAN.md) for the current roadmap.
 
 ## Reporting Issues
 
