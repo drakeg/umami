@@ -890,7 +890,7 @@ packages:
     resolution: {integrity: sha512-lwYN/vDPeNRULcepoE/LO2Pgx+7/RV+S9ARfbc9lr2DtGkOD7pAiruHvbR1RX3Qyf6ja47EWJDMsNK5vK08DJg==}
 
   '@dicebear/adventurer-neutral@9.4.3':
-    resolution: {integrity: sha512-bjB7UsijeAbWFceYeDOHG9vnRQ+AQGCn3198OB0ctXI43W4VXm7rG155dBaX9kpJyRf5zrcf321I1ZpWwi/neg==}
+    resolution: {integrity: sha512-G55yvlmc439YfE1tTmQaB6FB87kUiqc0vzi4ZiuXrfs9Hj0w5xKTJzox4eZKH7U3j6MujZV29qm+CozdtNJrpw==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       '@dicebear/core': ^9.0.0
@@ -1593,7 +1593,7 @@ packages:
       '@emnapi/runtime': ^1.7.1
 
   '@netlify/plugin-nextjs@5.16.2':
-    resolution: {integrity: sha512-gExiEAJi+hPGmh6MjppdXQo+RdV3KUMHFUbYrL8DRbBo58HPrJCh/KyuEcIRpdiGKwdSLllmbpnr/YtSaJQSRw==}
+    resolution: {integrity: sha512-bjB7UsijeAbWFceYeDOHG9vnRQ+AQGCn3198OB0ctXI43W4VXm7rG155dBaX9kpJyRf5zrcf321I1ZpWwi/neg==}
     engines: {node: '>=18.0.0'}
 
   '@next/env@16.4.2':
