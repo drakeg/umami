@@ -220,8 +220,8 @@ importers:
         specifier: ^2.5.13
         version: 2.5.15
       '@netlify/plugin-nextjs':
-        specifier: ^5.16.3
-        version: 5.16.3
+        specifier: ^5.16.2
+        version: 5.16.2
       '@rollup/plugin-commonjs':
         specifier: ^29.0.3
         version: 29.0.3(rollup@4.63.1)
@@ -890,7 +890,7 @@ packages:
     resolution: {integrity: sha512-lwYN/vDPeNRULcepoE/LO2Pgx+7/RV+S9ARfbc9lr2DtGkOD7pAiruHvbR1RX3Qyf6ja47EWJDMsNK5vK08DJg==}
 
   '@dicebear/adventurer-neutral@9.4.3':
-    resolution: {integrity: sha512-gExiEAJi+hPGmh6MjppdXQo+RdV3KUMHFUbYrL8DRbBo58HPrJCh/KyuEcIRpdiGKwdSLllmbpnr/YtSaJQSRw==}
+    resolution: {integrity: sha512-bjB7UsijeAbWFceYeDOHG9vnRQ+AQGCn3198OB0ctXI43W4VXm7rG155dBaX9kpJyRf5zrcf321I1ZpWwi/neg==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       '@dicebear/core': ^9.0.0
@@ -1592,7 +1592,7 @@ packages:
       '@emnapi/core': ^1.7.1
       '@emnapi/runtime': ^1.7.1
 
-  '@netlify/plugin-nextjs@5.16.3':
+  '@netlify/plugin-nextjs@5.16.2':
     resolution: {integrity: sha512-gExiEAJi+hPGmh6MjppdXQo+RdV3KUMHFUbYrL8DRbBo58HPrJCh/KyuEcIRpdiGKwdSLllmbpnr/YtSaJQSRw==}
     engines: {node: '>=18.0.0'}
 
@@ -6579,7 +6579,7 @@ snapshots:
       '@tybys/wasm-util': 0.10.3
     optional: true
 
-  '@netlify/plugin-nextjs@5.16.3': {}
+  '@netlify/plugin-nextjs@5.16.2': {}
 
   '@next/env@16.4.2': {}
 
