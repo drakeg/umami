@@ -25,7 +25,7 @@ jobs:
           cache: pnpm
       - name: Refresh consolidated dependency lockfile
         run: |
-          pnpm update --lockfile-only --no-frozen-lockfile \
+          pnpm update --lockfile-only \
             react react-dom babel-plugin-react-compiler \
             @netlify/plugin-nextjs @playwright/test @tanstack/react-query \
             @types/node jsdom postcss lucide-react
