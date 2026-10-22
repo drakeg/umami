@@ -76,10 +76,10 @@ importers:
         version: 5.6.2
       chart.js:
         specifier: ^4.5.1
-        version: 4.5.1
+        version: 4.6.1
       chartjs-adapter-date-fns:
         specifier: ^3.0.0
-        version: 3.0.0(chart.js@4.5.1)(date-fns@4.4.0)
+        version: 3.0.0(chart.js@4.6.1)(date-fns@4.4.0)
       colord:
         specifier: ^2.10.0
         version: 2.10.0
@@ -3087,8 +3087,8 @@ packages:
   change-case@5.4.4:
     resolution: {integrity: sha512-HRQyTk2/YPEkt9TnUPbOpr64Uw3KOicFWPVBb+xiHvd6eBx/qPr9xqfBFDT8P2vWsvvz4jbEkfDe71W3VyNu2w==}
 
-  chart.js@4.5.1:
-    resolution: {integrity: sha512-GIjfiT9dbmHRiYi6Nl2yFCq7kkwdkp1W/lp2J99rX0yo9tgJGn3lKQATztIjb5tVtevcBtIdICNWqlq5+E8/Pw==}
+  chart.js@4.6.1:
+    resolution: {integrity: sha512-hJyniucsFmq//EvXYvJ6c6mahPoI3kaxdjVH8awTaJ/fDNWeSqqqArixMJWkWNN6fcYvPU3HneSANFNYtRi61g==}
     engines: {pnpm: '>=8'}
 
   chartjs-adapter-date-fns@3.0.0:
@@ -7946,13 +7946,13 @@ snapshots:
 
   change-case@5.4.4: {}
 
-  chart.js@4.5.1:
+  chart.js@4.6.1:
     dependencies:
       '@kurkle/color': 0.3.4
 
-  chartjs-adapter-date-fns@3.0.0(chart.js@4.5.1)(date-fns@4.4.0):
+  chartjs-adapter-date-fns@3.0.0(chart.js@4.6.1)(date-fns@4.4.0):
     dependencies:
-      chart.js: 4.5.1
+      chart.js: 4.6.1
       date-fns: 4.4.0
 
   chokidar@4.0.3:
