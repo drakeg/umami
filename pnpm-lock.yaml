@@ -184,7 +184,7 @@ importers:
         version: 3.0.0(prop-types@15.8.1)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       react-window:
         specifier: ^2.3.1
-        version: 2.3.4(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
+        version: 2.5.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       redis:
         specifier: ^5.12.1
         version: 5.12.1
@@ -4758,8 +4758,8 @@ packages:
       '@types/react':
         optional: true
 
-  react-window@2.3.4:
-    resolution: {integrity: sha512-CnRWoRg+ZnQkLcULSNdbgKJnfcexy9x+9ELOATmDlDv3ZoADyLJc22vN3JRvMV651A6gFwYBlxllU9X+H9dyhQ==}
+  react-window@2.5.0:
+    resolution: {integrity: sha512-2oQiMo+lT5omOYaBJnloTK19yZDXqboDPMJP6li0gER0henua4iEz6BxzENJ1H5pNb6Kb2H4Lu0+YTuvqnw7QA==}
     peerDependencies:
       react: ^18.0.0 || ^19.0.0
       react-dom: ^18.0.0 || ^19.0.0
@@ -9590,7 +9590,7 @@ snapshots:
     optionalDependencies:
       '@types/react': 19.3.0
 
-  react-window@2.3.4(react-dom@19.3.1(react@19.3.1))(react@19.3.1):
+  react-window@2.5.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1):
     dependencies:
       react: 19.3.1
       react-dom: 19.3.1(react@19.3.1)
