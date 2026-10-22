@@ -11,7 +11,7 @@
   },
   "type": "module",
   "engines": {
-    "pnpm": "12.3.4"
+    "pnpm": "12.15.0"
   },
   "scripts": {
     "dev": "dotenv next dev --turbo",
@@ -158,7 +158,7 @@
     "postcss": "^8.5.31",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "11.6.1",
-    "rollup": "4.64.12",
+    "rollup": "4.65.0",
     "tar": "^7.5.22",
     "tsup": "^8.5.0",
     "tsx": "^4.23.13",
