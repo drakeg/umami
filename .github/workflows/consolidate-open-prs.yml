@@ -47,3 +47,4 @@ jobs:
           git add pnpm-lock.yaml package.json pnpm-workspace.yaml
           git commit -m "chore: consolidate open dependency updates"
           git push origin HEAD:deps/consolidated-open-prs
+
