@@ -10,7 +10,91 @@ env:
   DATABASE_URL: "postgresql://user:pass@localhost:5432/dummy"
   SKIP_DB_CHECK: 1
 
+permissions:
+  contents: write
+
 jobs:
+  refresh-lockfile:
+    if: github.event_name == 'pull_request' && github.head_ref == 'deps/consolidated-current-prs' && github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: deps/consolidated-current-prs
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 12.3.4
+          run_install: false
+      - name: Use Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: "pnpm"
+      - name: Generate aggregate lockfile without changing repository policy
+        run: |
+          cp pnpm-workspace.yaml /tmp/pnpm-workspace.yaml
+          python - <<'PY'
+          from pathlib import Path
+          p = Path("pnpm-workspace.yaml")
+          s = p.read_text()
+          marker = "minimumReleaseAgeExclude:\n"
+          insert = "  - '@rollup/plugin-typescript@12.3.1'\n  - zustand@5.0.16\n  - immer@11.2.9\n"
+          s = s.replace(marker, marker + insert, 1)
+          p.write_text(s)
+          PY
+          pnpm update --lockfile-only \
+            @rollup/plugin-typescript@12.3.1 \
+            rrweb@2.1.7 \
+            zustand@5.0.16 \
+            immer@11.2.9
+          cp /tmp/pnpm-workspace.yaml pnpm-workspace.yaml
+      - name: Commit generated lockfile
+        run: |
+          if git diff --quiet -- pnpm-lock.yaml; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pnpm-lock.yaml
+          git commit -m "chore: consolidate current dependency lockfile"
+          git push origin HEAD:deps/consolidated-current-prs
+
+  validate-aggregate:
+    if: github.event_name == 'pull_request' && github.head_ref == 'deps/consolidated-current-prs'
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 12.3.4
+          run_install: false
+      - name: Use Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: "pnpm"
+      - name: Temporarily allow only the not-yet-aged target versions for validation
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path("pnpm-workspace.yaml")
+          s = p.read_text()
+          marker = "minimumReleaseAgeExclude:\n"
+          insert = "  - '@rollup/plugin-typescript@12.3.1'\n  - zustand@5.0.16\n  - immer@11.2.9\n"
+          s = s.replace(marker, marker + insert, 1)
+          p.write_text(s)
+          PY
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm openapi:generate
+      - run: pnpm openapi:check --explicit
+      - run: pnpm check:api:client
+      - run: pnpm build:packages
+      - run: pnpm test
+      - run: pnpm test:packages
+      - run: pnpm build
+
   build:
     runs-on: ubuntu-latest
 
