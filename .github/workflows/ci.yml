@@ -42,7 +42,7 @@ jobs:
             @biomejs/biome@2.6.2 \
             react-window@2.5.0 \
             rollup@4.64.12 \
-            postcss-selector-parser@7.1.7 \
+            postcss-selector-parser \
             @rollup/plugin-terser@1.0.2
       - name: Commit lockfile
         run: |
