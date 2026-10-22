@@ -1,0 +1,49 @@
+name: Consolidate open dependency PRs
+
+on:
+  push:
+    branches:
+      - deps/consolidated-open-prs
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: deps/consolidated-open-prs
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 12.3.4
+          run_install: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - name: Regenerate consolidated lockfile
+        run: |
+          pnpm update --lockfile-only \
+            @netlify/plugin-nextjs@5.16.4 \
+            immer@11.2.7 \
+            lucide-react@1.61.0 \
+            postcss-preset-env@11.6.1 \
+            react-resizable-panels@4.14.8 \
+            @biomejs/biome@2.6.2 \
+            react-window@2.5.0 \
+            rollup@4.64.12 \
+            postcss-selector-parser@7.1.7 \
+            @rollup/plugin-terser@1.0.2
+      - name: Commit lockfile
+        run: |
+          if git diff --quiet -- pnpm-lock.yaml package.json pnpm-workspace.yaml; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pnpm-lock.yaml package.json pnpm-workspace.yaml
+          git commit -m "chore: consolidate open dependency updates"
+          git push origin HEAD:deps/consolidated-open-prs
