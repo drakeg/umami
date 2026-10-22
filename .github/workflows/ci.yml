@@ -60,6 +60,7 @@ jobs:
           git commit -m "chore: consolidate current dependency lockfile"
           git push origin HEAD:deps/consolidated-current-prs
 
+  # Validate the generated aggregate before restoring the standard workflow.
   validate-aggregate:
     if: github.event_name == 'pull_request' && github.head_ref == 'deps/consolidated-current-prs'
     runs-on: ubuntu-latest
