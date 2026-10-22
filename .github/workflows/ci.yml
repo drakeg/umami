@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - master
-      - deps/consolidated-open-prs
   pull_request:
 
 env:
@@ -16,7 +15,7 @@ permissions:
 
 jobs:
   refresh-lockfile:
-    if: github.event_name == 'push' && github.ref == 'refs/heads/deps/consolidated-open-prs' && github.actor != 'github-actions[bot]'
+    if: github.event_name == 'pull_request' && github.head_ref == 'deps/consolidated-open-prs' && github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
 
     steps:
