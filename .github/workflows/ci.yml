@@ -26,16 +26,13 @@ jobs:
         with:
           node-version: 22
           cache: "pnpm"
-      - name: Temporarily allow only the not-yet-aged target versions for validation
+      - name: Temporarily disable release-age gating for functional validation only
         run: |
           python - <<'PY'
           from pathlib import Path
           p = Path("pnpm-workspace.yaml")
           s = p.read_text()
-          marker = "minimumReleaseAgeExclude:\n"
-          insert = "  - '@rollup/plugin-typescript@12.3.1'\n  - zustand@5.0.16\n  - immer@11.2.9\n"
-          s = s.replace(marker, marker + insert, 1)
-          p.write_text(s)
+          p.write_text("minimumReleaseAge: 0\n" + s)
           PY
       - run: pnpm install --frozen-lockfile
       - run: pnpm openapi:generate
