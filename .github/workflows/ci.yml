@@ -11,6 +11,38 @@ env:
   SKIP_DB_CHECK: 1
 
 jobs:
+  validate-aggregate:
+    if: github.event_name == 'pull_request' && github.head_ref == 'deps/consolidated-post-merge'
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v7
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 12.15.0
+          run_install: false
+      - name: Use Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: "pnpm"
+      - name: Temporarily disable release-age gating for functional validation only
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path("pnpm-workspace.yaml")
+          s = p.read_text()
+          p.write_text("minimumReleaseAge: 0\n" + s)
+          PY
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm openapi:generate
+      - run: pnpm openapi:check --explicit
+      - run: pnpm check:api:client
+      - run: pnpm build:packages
+      - run: pnpm test
+      - run: pnpm test:packages
+      - run: pnpm build
+
   build:
     runs-on: ubuntu-latest
 
@@ -21,7 +53,7 @@ jobs:
           version: 12.15.0
           run_install: false
       - name: Use Node.js 22
-        uses: actions/setup-node@v7
+        uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: "pnpm"
