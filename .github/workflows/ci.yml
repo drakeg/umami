@@ -29,7 +29,16 @@ jobs:
         with:
           node-version: 22
           cache: "pnpm"
-      - run: pnpm update --lockfile-only rollup@4.65.0
+      - name: Regenerate Rollup 4.65.0 lockfile
+        run: |
+          cp pnpm-workspace.yaml /tmp/pnpm-workspace.yaml
+          python - <<'PY'
+          from pathlib import Path
+          p = Path("pnpm-workspace.yaml")
+          p.write_text("minimumReleaseAge: 0\n" + p.read_text())
+          PY
+          pnpm update --lockfile-only rollup@4.65.0
+          cp /tmp/pnpm-workspace.yaml pnpm-workspace.yaml
       - name: Commit lockfile
         run: |
           if git diff --quiet -- pnpm-lock.yaml; then
