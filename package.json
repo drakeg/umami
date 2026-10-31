@@ -120,7 +120,7 @@
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
     "react-error-boundary": "^6.1.5",
-    "react-resizable-panels": "4.14.8",
+    "react-resizable-panels": "4.15.3",
     "react-simple-maps": "^3.0.0",
     "react-window": "2.5.0",
     "redis": "^5.12.1",
