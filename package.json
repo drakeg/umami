@@ -122,7 +122,7 @@
     "react-error-boundary": "^6.1.5",
     "react-resizable-panels": "4.14.8",
     "react-simple-maps": "^3.0.0",
-    "react-window": "2.5.0",
+    "react-window": "2.5.2",
     "redis": "^5.12.1",
     "rrweb": "^2.0.1",
     "rrweb-player": "2.1.7",
