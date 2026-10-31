@@ -16,7 +16,7 @@ overrides:
   fflate@>=0.4.5 <0.4.9: 0.8.3
   js-yaml@>=4.0.0 <4.3.2: 4.3.2
   minimatch@<3.1.4: 3.1.4
-  minimatch@>=5.0.0 <5.1.8: 5.1.9
+  minimatch@>=5.0.0 <5.1.8: 11.0.1
   minimatch@>=9.0.0 <9.0.7: 9.0.7
   mysql2@<3.23.1: 3.24.6
   picomatch@>=4.0.0 <4.0.4: ^4.0.4
@@ -1544,6 +1544,9 @@ packages:
   '@isaacs/fs-minipass@4.0.1':
     resolution: {integrity: sha512-wgm9Ehl2jpeqP3zw/7mo3kRHFp5MEDhqAdwy1fTGkHAwnkGOVsgpvQhL8B5n1qlb01jV3n/bI0ZfZp5lWA1k4w==}
     engines: {node: '>=18.0.0'}
+
+  '@isaacs/nonrecursive-glob-match@1.0.3':
+    resolution: {integrity: sha512-SI7kyKHq4XXDRozw+r9GlRZkia1ZkFrpLW98r2IC2Bpr8YkFGE3fvjzmxCG0x78A++69HmDNrDvSMYBZmHGpKA==}
 
   '@jest/diff-sequences@30.4.0':
     resolution: {integrity: sha512-zOpzlfUs45l6u7jm39qr87JCHUDsaeCtvL+kQe/Vn9jSnRB4/5IPXISm0h9I1vZW/o00Kn4UTJ2MOlhnUGwv3g==}
@@ -4101,6 +4104,10 @@ packages:
     resolution: {integrity: sha512-I9jwMn07Sy/IwOj3zVkVik2JTvgpaykDZEigL6Rx6N9LbMywwUSMtxET+7lVoDLLd3O3IXwJwvuuns8UB/HeAg==}
     engines: {node: '>=4'}
 
+  minimatch@11.0.1:
+    resolution: {integrity: sha512-t+Vn6DX4wPCxS23y03C0uhF7S1jpi1GfqPrnlEipCJaA2ykiNbMkVlDutZtmvLfRcUN6R8AYVlzTsQrT4RZoLQ==}
+    engines: {node: 18 || 20 || >=22}
+
   minimatch@3.1.4:
     resolution: {integrity: sha512-twmL+S8+7yIsE9wsqgzU3E8/LumN3M3QELrBZ20OdmQ9jB2JvW5oZtBEmft84k/Gs5CG9mqtWc6Y9vW+JEzGxw==}
 
@@ -6535,6 +6542,8 @@ snapshots:
     dependencies:
       minipass: 7.1.2
 
+  '@isaacs/nonrecursive-glob-match@1.0.3': {}
+
   '@jest/diff-sequences@30.4.0': {}
 
   '@jest/expect-utils@30.4.1':
@@ -8487,7 +8496,7 @@ snapshots:
       fs.realpath: 1.0.0
       inflight: 1.0.6
       inherits: 2.0.4
-      minimatch: 5.1.9
+      minimatch: 11.0.1
       once: 1.4.0
 
   graceful-fs@4.2.11: {}
@@ -8864,6 +8873,11 @@ snapshots:
   memorystream@0.3.1: {}
 
   min-indent@1.0.1: {}
+
+  minimatch@11.0.1:
+    dependencies:
+      '@isaacs/nonrecursive-glob-match': 1.0.3
+      brace-expansion: 5.0.12
 
   minimatch@3.1.4:
     dependencies:
