@@ -33,9 +33,9 @@ minimumReleaseAgeExclude:
 
 # Security floors for transitive dependencies whose parents still allow affected versions.
 overrides:
-  '@babel/core@<7.29.6': 8.0.9
+  '@babel/core@<7.29.6': 8.0.10
   'brace-expansion@<1.1.21': 5.0.12
-  'brace-expansion@>=2.0.0 <2.1.7': 2.1.7
+  'brace-expansion@>=2.0.0 <2.1.7': 5.0.12
   'browserslist@<4.28.7': 4.29.4
   'd3-color@<3.1.0': 3.1.0
   'deepmerge-ts@<8.0.0': 8.0.2
