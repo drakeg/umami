@@ -220,8 +220,8 @@ importers:
         specifier: 2.6.4
         version: 2.6.4
       '@netlify/plugin-nextjs':
-        specifier: 5.16.4
-        version: 5.16.4
+        specifier: 5.16.5
+        version: 5.16.5
       '@rollup/plugin-commonjs':
         specifier: ^29.0.3
         version: 29.0.3(rollup@4.65.0)
@@ -1623,8 +1623,8 @@ packages:
     os: [linux]
     libc: [glibc]
 
-  '@netlify/plugin-nextjs@5.16.4':
-    resolution: {integrity: sha512-yvFqkPxCeDrdC9y51Fxt5rK0lNWPo+esoc5uYbHBkM6kgop7s7jL2NtFFjN8g5SitbCnXoVm+dOlrgKEYfdx2g==}
+  '@netlify/plugin-nextjs@5.16.5':
+    resolution: {integrity: sha512-pt0j/YCZr5Kn2ziGS4Ps+RvREEn5LN2M9iv9iqEgNWZGb4esu7MCMy4RIYS0UR3JuBHxVtsvPHo0gEv+RKFpag==}
     engines: {node: '>=18.0.0'}
 
   '@next/env@16.4.3':
@@ -6634,7 +6634,7 @@ snapshots:
   '@napi-rs/lzma-linux-x64-gnu@1.5.1':
     optional: true
 
-  '@netlify/plugin-nextjs@5.16.4': {}
+  '@netlify/plugin-nextjs@5.16.5': {}
 
   '@next/env@16.4.3': {}
 
