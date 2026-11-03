@@ -9,7 +9,7 @@ overrides:
   brace-expansion@<1.1.21: 5.0.12
   brace-expansion@>=2.0.0 <2.1.7: 5.0.12
   browserslist@<4.28.7: 4.29.4
-  d3-color@<3.1.0: 3.1.0
+  d3-color@<3.1.0: 3.1.1
   deepmerge-ts@<8.0.0: 8.0.2
   esbuild@>=0.27.3 <0.28.1: 0.28.2
   fast-uri@>=3.0.0 <3.1.8: 4.2.3
@@ -3277,6 +3277,10 @@ packages:
 
   d3-color@3.1.0:
     resolution: {integrity: sha512-zg/chbXyeBtMQ1LbD/WSoW2DpC3I0mpmPdW+ynRTj/x2DAWYrIY7qeZIHidozwV24m4iavr15lNwIwLxRmOxhA==}
+    engines: {node: '>=12'}
+
+  d3-color@3.1.1:
+    resolution: {integrity: sha512-lfab8x0Bj0UO7SNsY8dZSbNIA6ipbkE3X0NG9nqjCu6CfCHZseuDnOSJY7hidKrjpP++i1M2qT+FlAdPKYRilA==}
     engines: {node: '>=12'}
 
   d3-delaunay@6.0.2:
@@ -8098,6 +8102,8 @@ snapshots:
 
   d3-color@3.1.0: {}
 
+  d3-color@3.1.1: {}
+
   d3-delaunay@6.0.2:
     dependencies:
       delaunator: 5.1.0
@@ -8123,11 +8129,11 @@ snapshots:
 
   d3-interpolate@2.0.1:
     dependencies:
-      d3-color: 3.1.0
+      d3-color: 3.1.1
 
   d3-interpolate@3.0.1:
     dependencies:
-      d3-color: 3.1.0
+      d3-color: 3.1.1
 
   d3-path@3.1.0: {}
 
@@ -8157,7 +8163,7 @@ snapshots:
 
   d3-transition@2.0.0(d3-selection@2.0.0):
     dependencies:
-      d3-color: 3.1.0
+      d3-color: 3.1.1
       d3-dispatch: 2.0.0
       d3-ease: 2.0.0
       d3-interpolate: 2.0.1
