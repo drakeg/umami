@@ -5,9 +5,6 @@ import { resetTestNavigation } from './navigation';
 
 configure({ testIdAttribute: 'data-test' });
 
-vi.stubGlobal('localStorage', window.localStorage);
-vi.stubGlobal('sessionStorage', window.sessionStorage);
-
 Object.defineProperty(window, 'matchMedia', {
   writable: true,
   value: vi.fn().mockImplementation((query: string) => ({
