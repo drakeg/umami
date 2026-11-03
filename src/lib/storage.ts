@@ -1,12 +1,12 @@
 export function setItem(key: string, data: any, session?: boolean) {
   if (typeof window !== 'undefined' && data) {
-    return (session ? sessionStorage : localStorage).setItem(key, JSON.stringify(data));
+    return (session ? window.sessionStorage : window.localStorage).setItem(key, JSON.stringify(data));
   }
 }
 
 export function getItem(key: string, session?: boolean): any {
   if (typeof window !== 'undefined') {
-    const value = (session ? sessionStorage : localStorage).getItem(key);
+    const value = (session ? window.sessionStorage : window.localStorage).getItem(key);
 
     if (value !== 'undefined' && value !== null) {
       try {
