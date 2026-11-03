@@ -25,7 +25,7 @@ export function LoginForm() {
     await mutateAsync(data, {
       onSuccess: async (response: any) => {
         if (response.requiresTwoFactor) {
-          sessionStorage.setItem('umami.partial-token', response.partialToken);
+          window.sessionStorage.setItem('umami.partial-token', response.partialToken);
           router.push('/login/two-factor');
           return;
         }
