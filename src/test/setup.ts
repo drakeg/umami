@@ -5,15 +5,8 @@ import { resetTestNavigation } from './navigation';
 
 configure({ testIdAttribute: 'data-test' });
 
-Object.defineProperty(globalThis, 'localStorage', {
-  configurable: true,
-  value: window.localStorage,
-});
-
-Object.defineProperty(globalThis, 'sessionStorage', {
-  configurable: true,
-  value: window.sessionStorage,
-});
+vi.stubGlobal('localStorage', window.localStorage);
+vi.stubGlobal('sessionStorage', window.sessionStorage);
 
 Object.defineProperty(window, 'matchMedia', {
   writable: true,
