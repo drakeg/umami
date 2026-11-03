@@ -32,12 +32,12 @@ export function LoginTwoFactorPage() {
 
   // Redirect to the login page when no token
   useEffect(() => {
-    const token = sessionStorage.getItem('umami.partial-token');
+    const token = window.sessionStorage.getItem('umami.partial-token');
     if (!token) {
       router.replace('/login');
       return;
     }
-    sessionStorage.removeItem('umami.partial-token');
+    window.sessionStorage.removeItem('umami.partial-token');
     partialTokenRef.current = token;
   }, [router]);
 
