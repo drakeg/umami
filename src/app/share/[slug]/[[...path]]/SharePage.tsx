@@ -61,11 +61,11 @@ function getSharePath(pathname: string) {
 
 export function SharePage() {
   const [navCollapsed, setNavCollapsed] = useState(
-    () => typeof window !== 'undefined' && window.localStorage.getItem('share:navCollapsed') === 'true',
+    () => typeof window !== 'undefined' && localStorage.getItem('share:navCollapsed') === 'true',
   );
 
   const handleCollapse = (value: boolean) => {
-    window.localStorage.setItem('share:navCollapsed', String(value));
+    localStorage.setItem('share:navCollapsed', String(value));
     setNavCollapsed(value);
   };
   const share = useShare();
