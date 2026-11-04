@@ -160,7 +160,7 @@
     "postcss-preset-env": "11.6.2",
     "rollup": "4.67.4",
     "tar": "^7.5.22",
-    "tsup": "^8.5.0",
+    "tsup": "^9.0.0",
     "tsx": "^4.23.13",
     "typescript": "^6.0.3",
     "vitest": "^4.1.11",
