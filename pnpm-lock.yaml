@@ -147,8 +147,8 @@ importers:
         specifier: ^3.2.8
         version: 3.3.2
       npm-run-all2:
-        specifier: ^5.0.0
-        version: 5.0.2
+        specifier: ^9.0.0
+        version: 9.0.4
       otplib:
         specifier: ^13.5.0
         version: 13.6.0
@@ -5452,6 +5452,24 @@ packages:
       use-sync-external-store:
         optional: true
 
+  ansi-styles@7.0.0:
+
+  isexe@4.0.0:
+
+  json-parse-even-better-errors@6.0.0:
+
+  npm-normalize-package-bin@6.0.0:
+
+  npm-run-all2@9.0.4:
+
+  pidtree@1.0.0:
+
+  read-package-json-fast@6.0.0:
+
+  shell-quote@1.12.0:
+
+  which@7.0.0:
+
 snapshots:
 
   '@adobe/css-tools@4.5.0': {}
@@ -10149,3 +10167,21 @@ snapshots:
       immer: 11.2.9
       react: 19.3.1
       use-sync-external-store: 1.6.0(react@19.3.1)
+
+  ansi-styles@7.0.0: {}
+
+  isexe@4.0.0: {}
+
+  json-parse-even-better-errors@6.0.0: {}
+
+  npm-normalize-package-bin@6.0.0: {}
+
+  npm-run-all2@9.0.4:
+
+  pidtree@1.0.0: {}
+
+  read-package-json-fast@6.0.0:
+
+  shell-quote@1.12.0: {}
+
+  which@7.0.0:
