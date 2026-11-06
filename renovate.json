@@ -1,7 +1,26 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended"],
+  "extends": [
+    "config:recommended"
+  ],
   "minimumReleaseAge": "24 hours",
   "minimumReleaseAgeBuffer": "1 hour",
-  "internalChecksFilter": "strict"
+  "internalChecksFilter": "strict",
+  "packageRules": [
+    {
+      "description": "Hold TypeScript below v7 until compiler-API consumers are migrated",
+      "matchPackageNames": [
+        "typescript"
+      ],
+      "allowedVersions": "<7.0.0"
+    },
+    {
+      "description": "Keep DiceBear core and collection on the compatible v9 line until migrated together",
+      "matchPackageNames": [
+        "@dicebear/core",
+        "@dicebear/collection"
+      ],
+      "allowedVersions": "<10.0.0"
+    }
+  ]
 }
