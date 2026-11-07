@@ -29,8 +29,19 @@
         "minor"
       ],
       "groupName": "non-major dependency maintenance"
+    },
+    {
+      "description": "Queue major upgrades for explicit Dependency Dashboard approval",
+      "matchUpdateTypes": [
+        "major"
+      ],
+      "dependencyDashboardApproval": true
     }
   ],
-  "prConcurrentLimit": 3,
-  "prHourlyLimit": 2
+  "prConcurrentLimit": 2,
+  "prHourlyLimit": 1,
+  "vulnerabilityAlerts": {
+    "vulnerabilityFixStrategy": "highest",
+    "prConcurrentLimit": 2
+  }
 }
